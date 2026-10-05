@@ -54,18 +54,28 @@ function render(){
   document.getElementById('prompt').textContent=q.prompt;
 
   const ctx=document.getElementById('context');
-  if(q.kind==="accuracy_table"){
+  const hasRichContext = q.context_html && ['visual','planning','accuracy_table'].includes(q.kind);
+  if(hasRichContext){
+    ctx.innerHTML=q.context_html;
+  } else if(q.kind==='accuracy_table'){
     ctx.innerHTML=q.context||'';
   } else {
     ctx.textContent=q.context||'';
   }
-  ctx.style.display=q.context?'block':'none';
+  ctx.style.display=(q.context_html||q.context)?'block':'none';
 
   const opts=document.getElementById('options'); opts.innerHTML='';
   q.options.forEach((o,i)=>{
     const b=document.createElement('button');
     b.className='option';
-    b.innerHTML = (q.kind==="html_options") ? `${String.fromCharCode(65+i)}. ${o}` : `${String.fromCharCode(65+i)}. ${esc(o)}`;
+    if(q.kind==='visual' && Array.isArray(q.option_html)){
+      b.classList.add('visual-option');
+      b.innerHTML=`<span class="opt-letter">${String.fromCharCode(65+i)}</span>${q.option_html[i]}`;
+    } else if(q.kind==='html_options'){
+      b.innerHTML=`${String.fromCharCode(65+i)}. ${o}`;
+    } else {
+      b.innerHTML=`${String.fromCharCode(65+i)}. ${esc(o)}`;
+    }
     if(answers[idx]===i) b.classList.add('selected');
     b.onclick=()=>choose(i);
     opts.appendChild(b);
