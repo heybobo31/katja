@@ -1,0 +1,16 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EAG C1 – 2-Stunden-Prüfungssimulation</title><link rel="stylesheet" href="style.css"></head>
+<body><header><div class="topbar"><div class="brand">EAG C1 Prüfungssimulation <small>Deutsch</small></div><div id="timer" class="timer">02:00:00</div></div></header>
+<main>
+<div class="card">
+<span class="badge">120 Minuten</span><h1 id="section">Prüfung</h1>
+<div class="meta"><span id="count"></span><span>56 Aufgaben · 7 Bereiche</span></div>
+<div class="progress"><div id="bar"></div></div>
+<div class="notice">Im Prüfungsmodus gibt es während der Bearbeitung keine Sofortkorrektur. Du kannst zwischen Aufgaben wechseln und erst am Ende abgeben.</div>
+<div class="question"><div id="context" class="context"></div><div id="prompt" class="qtext"></div><div id="options" class="options"></div></div>
+<div class="toolbar"><button id="prev" class="secondary">Zurück</button><button id="next" class="primary">Weiter</button><button id="finish" class="danger">Prüfung abgeben</button></div>
+<h3>Aufgabenübersicht</h3><div id="qnav" class="exam-grid"></div>
+</div>
+</main>
+<script src="questions.js"></script><script src="exam.js"></script>
+</body></html>

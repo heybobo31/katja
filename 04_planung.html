@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="de">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EAG C1 Training</title><link rel="stylesheet" href="style.css"></head>
+<body data-module="planning">
+<header><div class="topbar"><div class="brand">EAG C1 Trainer <small>Deutsch</small></div><a class="btn secondary" href="index.html">Übersicht</a></div></header>
+<main>
+<div class="card">
+  <span class="badge">50 Trainingsaufgaben</span>
+  <h1 id="title"></h1><p id="subtitle" class="muted"></p>
+  <div class="meta"><span id="count"></span><span>Antworten: A–D</span><span id="seenCount"></span></div>
+  <div class="progress"><div id="bar"></div></div>
+  <div class="question">
+    <div id="context" class="context"></div>
+    <div id="prompt" class="qtext"></div>
+    <div id="options" class="options"></div>
+    <div id="feedback"></div>
+  </div>
+  <div class="toolbar">
+    <button id="prev" class="secondary">Zurück</button>
+    <button id="check" class="secondary">Antwort prüfen</button>
+    <button id="next" class="primary">Nächste</button>
+  </div>
+</div>
+</main>
+<script src="questions.js"></script><script src="trainer.js"></script>
+</body></html>
