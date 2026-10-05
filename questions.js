@@ -3710,10 +3710,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du antwortest sachlich, verweist auf die bereits gegebene Antwort, nennst den formellen Beschwerde- oder Einspruchsweg und informierst deine Vorgesetzte über den Verlauf.",
-          "Du ignorierst die weiteren E-Mails, da die Anfrage bereits beantwortet wurde.",
-          "Du gibst seiner Forderung schließlich nach, damit die E-Mails aufhören und die Abteilung entlastet wird.",
-          "Du antwortest im gleichen scharfen Ton, damit er merkt, dass sein Verhalten nicht akzeptabel ist."
+          "Du antwortest sachlich mit Verweis auf die frühere Antwort und den Einspruchsweg und informierst deine Vorgesetzte.",
+          "Du beantwortest die weiteren E-Mails nicht mehr, weil die Anfrage bereits vollständig beantwortet wurde und sich nichts geändert hat.",
+          "Du gibst seiner Forderung schließlich nach, damit die E-Mails aufhören und die Abteilung wieder normal arbeiten kann.",
+          "Du antwortest im gleichen deutlichen Ton, damit er merkt, dass sein Verhalten nicht akzeptabel ist und so nicht weitergehen kann."
         ],
         "answer": 0,
         "explanation": "Sachliche, konsistente Antwort mit formellem Weg und Einbindung der Vorgesetzten ist professionell. Ignorieren eskaliert, ein scharfer Ton ist unprofessionell, und Nachgeben unter Druck ist unzulässig.",
@@ -3723,10 +3723,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du bittest ihn, nach Hause zu gehen und wiederzukommen, wenn er weiß, was er möchte.",
-          "Du durchsuchst seine Tasche nach Unterlagen, um herauszufinden, welches Anliegen er haben könnte.",
-          "Du rufst sofort den Notarzt, da er offensichtlich medizinische Hilfe braucht.",
-          "Du sprichst ruhig mit ihm, bietest ihm einen Sitzplatz an, versuchst mit einfachen Fragen sein Anliegen herauszufinden und fragst, ob du eine Angehörige oder Kontaktperson verständigen darfst."
+          "Du bittest ihn, nach Hause zu gehen und wiederzukommen, wenn er sein Anliegen weiß, damit er sich in Ruhe erinnern kann.",
+          "Du schaust in seiner Tasche nach Unterlagen, um herauszufinden, welches Anliegen er haben könnte, und ihm so schneller zu helfen.",
+          "Du rufst sofort den Notarzt, weil seine Verwirrung ein medizinischer Notfall sein könnte und du kein Risiko eingehen willst.",
+          "Du bietest ihm einen Sitzplatz an, klärst mit einfachen Fragen sein Anliegen und fragst, ob du eine Angehörige verständigen darfst."
         ],
         "answer": 3,
         "explanation": "Ruhige Zuwendung, einfache Fragen und das Einverständnis zur Kontaktaufnahme sind respektvoll und hilfreich. Wegschicken lässt ihn allein, seine Tasche zu durchsuchen ist übergriffig, und der Notarzt ist ohne Anzeichen eines Notfalls überzogen.",
@@ -3736,10 +3736,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du bittest die anderen Wartenden, sich um sie zu kümmern, da du deinen Schalter nicht verlassen darfst.",
-          "Du bringst sie in einen ruhigen Nebenraum, damit sie sich ausruhen kann und andere nicht beunruhigt werden.",
-          "Du alarmierst sofort den Notruf 112, informierst die Ersthelfer im Haus, leistest im Rahmen deiner Kenntnisse Erste Hilfe und sorgst dafür, dass der Bereich frei bleibt.",
-          "Du rufst ihre Angehörigen an, deren Kontaktdaten du in ihrer Akte findest, und wartest auf deren Anweisungen."
+          "Du bittest die anderen Wartenden, sich um sie zu kümmern, weil du deinen Schalter mit den offenen Akten nicht unbeaufsichtigt lassen darfst.",
+          "Du bringst sie in einen ruhigen Nebenraum, damit sie sich dort ausruhen kann und die anderen Wartenden nicht beunruhigt werden.",
+          "Du rufst sofort den Notruf 112, holst die Ersthelfer im Haus und leistest bis dahin im Rahmen deiner Kenntnisse Erste Hilfe.",
+          "Du rufst ihre Angehörigen an, deren Kontaktdaten du in ihrer Akte findest, weil sie ihre Vorerkrankungen am besten kennen."
         ],
         "answer": 2,
         "explanation": "In einem medizinischen Notfall haben Notruf und Erste Hilfe absoluten Vorrang. Die Verantwortung abzugeben ist unterlassene Hilfe, Angehörige ersetzen keinen Notdienst, und das Bewegen einer kollabierten Person kann gefährlich sein.",
@@ -3749,10 +3749,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du weist ihn darauf hin, dass eine Beschwerde über dich persönlich rechtliche Folgen für ihn haben kann.",
-          "Du bleibst sachlich, erklärst die Gründe der Entscheidung und informierst ihn über den offiziellen Beschwerde- bzw. Einspruchsweg.",
-          "Du sagst ihm, dass er das gerne tun kann, es aber ohnehin nichts an der Entscheidung ändert.",
-          "Du bittest ihn eindringlich, nichts zu posten, und bietest an, die Entscheidung noch einmal zu seinen Gunsten zu überdenken."
+          "Du weist ihn darauf hin, dass öffentliche Vorwürfe gegen dich persönlich rechtliche Folgen haben können, damit er es sich überlegt.",
+          "Du bleibst sachlich, erklärst die Gründe der Entscheidung und nennst ihm den offiziellen Beschwerde- bzw. Einspruchsweg.",
+          "Du sagst ihm, dass er das gerne tun kann, es aber ohnehin nichts an der Entscheidung ändert, damit er keine falschen Erwartungen hat.",
+          "Du bittest ihn eindringlich, nichts zu posten, und bietest an, die Entscheidung noch einmal zu überdenken, um den Ruf zu schützen."
         ],
         "answer": 1,
         "explanation": "Sachlichkeit und Hinweis auf offizielle Wege sind professionell und wirksam. Nachgeben unter Druck ist unzulässig, ein abschätziger Kommentar provoziert, und die Drohung mit rechtlichen Folgen eskaliert.",
@@ -3762,10 +3762,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du hörst kurz zu, erklärst, dass die Klärung mehr Zeit braucht, und vereinbarst einen verbindlichen Rückruf für morgen mit seinen Kontaktdaten und Stichpunkten zum Anliegen.",
-          "Du sagst ihm, dass die Hotline gleich schließt, und bittest ihn, morgen ab 8 Uhr noch einmal anzurufen.",
-          "Du beantwortest seine Frage in zwei Minuten so knapp wie möglich, auch wenn wichtige Details dabei wegfallen.",
-          "Du bleibst so lange am Telefon, wie es nötig ist, und versprichst ihm, dass er heute noch eine vollständige Lösung bekommt."
+          "Du hörst kurz zu, erklärst, dass es mehr Zeit braucht, und vereinbarst mit ihm einen verbindlichen Rückruf für morgen.",
+          "Du sagst ihm, dass die Hotline gleich schließt, und bittest ihn, morgen ab 8 Uhr wieder anzurufen, wenn mehr Zeit für ihn da ist.",
+          "Du beantwortest seine Frage in zwei Minuten so knapp wie möglich, damit er heute noch zumindest eine erste Antwort erhält.",
+          "Du bleibst so lange am Telefon wie nötig und versprichst ihm, dass er heute noch eine vollständige und endgültige Lösung bekommt."
         ],
         "answer": 0,
         "explanation": "Ein vereinbarter Rückruf mit vorbereitetem Anliegen ist verbindlich und realistisch. Ihn einfach erneut anrufen zu lassen ist unpersönlich, eine verkürzte Antwort kann falsch sein, und ein Lösungsversprechen ist unrealistisch.",
@@ -3775,10 +3775,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du bittest sie, das Kind zuerst zu beruhigen, und rufst so lange den nächsten Bürger auf.",
-          "Du versuchst, das Anliegen so schnell wie möglich abzuschließen, und überspringst dabei die weniger wichtigen Fragen.",
-          "Du sagst ihr, sie solle ohne Kind wiederkommen, damit ihr euch in Ruhe unterhalten könnt.",
-          "Du beruhigst sie, dass das kein Problem ist, nimmst dir Zeit, stellst gezielte Fragen und fasst das Anliegen und die nächsten Schritte am Ende schriftlich für sie zusammen."
+          "Du bittest sie, zuerst das Kind zu beruhigen, und rufst so lange den nächsten Bürger auf, damit sie sich danach besser konzentrieren kann.",
+          "Du schließt das Anliegen so schnell wie möglich ab und lässt weniger wichtige Fragen weg, damit sie mit dem Kind rasch gehen kann.",
+          "Du schlägst ihr vor, ohne Kind wiederzukommen, damit ihr euch beim nächsten Termin in Ruhe und ohne Ablenkung unterhalten könnt.",
+          "Du beruhigst sie, nimmst dir Zeit, stellst gezielte Fragen und fasst Anliegen und nächste Schritte schriftlich zusammen."
         ],
         "answer": 3,
         "explanation": "Verständnis, Struktur und eine schriftliche Zusammenfassung entlasten sie und sichern das Ergebnis. Sie warten zu lassen oder wegzuschicken ist unfreundlich, und Hast führt zu Fehlern.",
@@ -3788,10 +3788,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du empfiehlst ihr, einen anderen Browser zu verwenden, und beendest das Gespräch.",
-          "Du sagst ihr, dass das Formular bei allen anderen funktioniert und der Fehler wohl an ihrem Computer liegt.",
-          "Du nimmst die Fehlerbeschreibung genau auf, meldest sie an die IT und bietest ihr an, ihr Anliegen in der Zwischenzeit telefonisch oder per E-Mail aufzunehmen.",
-          "Du versprichst ihr, dass das Formular bis morgen repariert ist, und bittest sie, es dann erneut zu versuchen."
+          "Du empfiehlst ihr, einen anderen Browser zu verwenden, weil das solche Probleme meistens behebt, und beendest das Gespräch.",
+          "Du sagst ihr, dass das Formular bei allen anderen funktioniert und der Fehler deshalb wohl an ihrem Computer oder Browser liegt.",
+          "Du nimmst den Fehler auf, meldest ihn an die IT und bietest an, ihr Anliegen bis dahin telefonisch aufzunehmen.",
+          "Du versprichst ihr, dass das Formular bis morgen repariert ist, und bittest sie, es dann noch einmal in Ruhe zu versuchen."
         ],
         "answer": 2,
         "explanation": "Problem dokumentieren, weitermelden und eine sofortige Alternative anbieten löst ihr Anliegen. Schuldzuweisung ist unprofessionell, ein Reparaturtermin ist ein unrealistisches Versprechen, und ein bloßer Browsertipp lässt sie ohne gesicherte Lösung.",
@@ -3801,10 +3801,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du lässt die beiden den Streit selbst klären, da es nicht deine Aufgabe ist, Konflikte zwischen Bürgern zu lösen.",
-          "Du gehst ruhig dazu, verweist sachlich auf die Wartenummern, klärst die Reihenfolge und bedankst dich bei beiden für ihr Verständnis.",
-          "Du nimmst den lauteren der beiden zuerst dran, damit wieder Ruhe im Wartebereich einkehrt.",
-          "Du drohst beiden, sie aus dem Gebäude zu verweisen, wenn sie nicht sofort still sind."
+          "Du lässt die beiden den Streit selbst klären, weil Konflikte zwischen Bürgern nicht in deinen Aufgabenbereich am Schalter fallen.",
+          "Du gehst ruhig dazu, verweist sachlich auf die Wartenummern und klärst so die Reihenfolge für beide.",
+          "Du nimmst den lauteren der beiden zuerst dran, damit möglichst schnell wieder Ruhe im Wartebereich einkehrt.",
+          "Du drohst beiden, sie aus dem Gebäude zu verweisen, wenn sie nicht sofort still sind, damit die Ordnung gewahrt bleibt."
         ],
         "answer": 1,
         "explanation": "Ruhiges Eingreifen mit klarer, objektiver Regel stellt Fairness her und deeskaliert. Wegschauen lässt den Konflikt eskalieren, Nachgeben belohnt Lautstärke, und Drohungen verschärfen die Lage.",
@@ -3814,10 +3814,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du hörst ihr aufmerksam zu, nimmst die Beschwerde sachlich auf, ohne die Kollegin vorschnell zu verurteilen, und erklärst, wie die Beschwerde weitergeleitet wird.",
-          "Du verteidigst deine Kollegin und erklärst, dass sie sehr kompetent ist und gestern sicher nur einen stressigen Tag hatte.",
+          "Du hörst ihr zu, nimmst die Beschwerde sachlich auf, ohne die Kollegin vorschnell zu verurteilen, und erklärst das weitere Verfahren.",
+          "Du nimmst deine Kollegin in Schutz und erklärst, dass sie sehr kompetent ist und gestern sicher nur einen stressigen Tag hatte.",
           "Du entschuldigst dich im Namen der Kollegin und versicherst ihr, dass die Kollegin für ihr Verhalten Konsequenzen tragen wird.",
-          "Du sagst, dass du für das Verhalten von Kolleginnen nicht zuständig bist, und gibst ihr die Telefonnummer der Personalabteilung."
+          "Du sagst, dass du für Kolleginnen nicht zuständig bist, und gibst ihr die Nummer der Personalabteilung, weil die solche Fälle prüft."
         ],
         "answer": 0,
         "explanation": "Die Beschwerde wird ernst genommen, neutral dokumentiert und dem richtigen Verfahren zugeführt. Konsequenzen zu versprechen übersteigt deine Befugnis, Verteidigen wirkt abweisend, und das bloße Weiterverweisen ist unpersönlich.",
@@ -3827,10 +3827,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du suchst nach ihrem Namen im System und nennst ihr den Stand des ersten Antrags, den du unter diesem Namen findest.",
-          "Du versprichst, sie zurückzurufen, sobald du ihren Antrag gefunden hast, ohne ihre Kontaktdaten zu notieren.",
-          "Du sagst ihr, dass du ohne Antragsnummer leider keine Auskunft geben kannst, und bittest sie, später wieder anzurufen.",
-          "Du bittest sie um Angaben, mit denen du sie eindeutig identifizieren kannst, prüfst diese und gibst ihr dann Auskunft sowie die Antragsnummer für künftige Anfragen."
+          "Du suchst nach ihrem Namen im System und nennst ihr den Stand des ersten passenden Antrags, damit sie nicht warten muss.",
+          "Du versprichst, sie zurückzurufen, sobald du den Antrag gefunden hast, damit sie nicht in der Warteschleife bleiben muss.",
+          "Du sagst ihr, dass du ohne Antragsnummer keine Auskunft geben kannst, und bittest sie, mit der Nummer später erneut anzurufen.",
+          "Du identifizierst sie anhand eindeutiger Angaben, gibst ihr dann Auskunft und nennst ihr die Antragsnummer für später."
         ],
         "answer": 3,
         "explanation": "Eine sichere Identifizierung schützt die Daten und ermöglicht dennoch eine Auskunft. Ablehnen ist unnötig unflexibel, eine Namenssuche ohne Prüfung riskiert eine Verwechslung, und ein Rückruf ohne Kontaktdaten ist unrealistisch.",
@@ -3840,10 +3840,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du erklärst, dass das System ausgefallen ist, und bittest ihn, es in den nächsten Tagen noch einmal zu versuchen.",
-          "Du stellst ihm eine handschriftliche Bescheinigung mit Stempel aus, damit er sie heute noch vorlegen kann.",
-          "Du erklärst die Lage, nimmst seine Kontaktdaten auf und bietest an, die Bescheinigung nach Behebung per Post oder elektronisch zuzusenden, und bestätigst ihm den Vorgang schriftlich.",
-          "Du versprichst ihm, dass das System in einer Stunde wieder läuft, und bittest ihn, im Wartebereich zu warten."
+          "Du erklärst, dass das System ausgefallen ist, und bittest ihn, in den nächsten Tagen wiederzukommen, wenn wieder alles normal läuft.",
+          "Du stellst ihm eine handschriftliche Bescheinigung mit Dienststempel aus, damit er sie heute noch bei seinem Arbeitgeber vorlegen kann.",
+          "Du erklärst die Lage, nimmst seine Kontaktdaten auf und sendest ihm die Bescheinigung nach der Störung per Post oder elektronisch zu.",
+          "Du versprichst ihm, dass das System in einer Stunde wieder läuft, und bittest ihn, so lange im Wartebereich Platz zu nehmen."
         ],
         "answer": 2,
         "explanation": "Transparenz und ein konkreter, verlässlicher nächster Schritt lösen das Problem regelkonform. Handschriftliche Bescheinigungen sind nicht zulässig, ein unbestimmtes Vertrösten hilft nicht, und Zeitversprechen ohne Grundlage sind unrealistisch.",
@@ -3853,10 +3853,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du erklärst ihr, dass der Termin morgen ist und sie dann wiederkommen muss, da die Termine fest vergeben sind.",
-          "Du zeigst Verständnis, prüfst, ob heute noch ein freier Termin oder eine kurze Bearbeitung möglich ist, und bestätigst ihr sonst den morgigen Termin schriftlich.",
-          "Du nimmst sie sofort dran, da sie einen weiten Weg hatte, auch wenn dadurch andere Termine warten müssen.",
-          "Du sagst ihr, dass es heute nicht geht, aber sie morgen ohne Wartezeit sofort als Erste drankommt."
+          "Du erklärst ihr, dass der Termin morgen ist und sie dann wiederkommen muss, weil alle Termine fest vergeben sind.",
+          "Du zeigst Verständnis, prüfst, ob heute noch etwas frei ist, und bestätigst ihr sonst den morgigen Termin schriftlich.",
+          "Du nimmst sie sofort dran, weil sie einen weiten Weg hatte, auch wenn dadurch andere Termine kurz warten müssen.",
+          "Du sagst ihr, dass es heute nicht geht, sie aber morgen ohne jede Wartezeit sofort als Erste drankommt."
         ],
         "answer": 1,
         "explanation": "Prüfen, ob ohne Benachteiligung anderer geholfen werden kann, ist bürgernah und fair. Sofortiges Drannehmen benachteiligt andere, eine bloße Abweisung ignoriert Möglichkeiten, und eine Vorzugsbehandlung morgen ist ein unzulässiges Versprechen.",
@@ -3866,10 +3866,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du sagst ihr, dass dir keine offizielle Information vorliegt, und verweist auf die offiziellen Kanäle der Gemeinde, wo Entscheidungen veröffentlicht werden.",
-          "Du bestätigst, dass du so etwas gehört hast, betonst aber, dass es noch nicht offiziell ist.",
-          "Du erklärst ihr, dass solche Fragen nicht am Schalter beantwortet werden, und bittest sie, eine E-Mail zu schreiben.",
-          "Du beruhigst sie und sagst, dass das Schwimmbad bestimmt nicht geschlossen wird, da es sehr beliebt ist."
+          "Du sagst, dass dir keine offizielle Information vorliegt, und verweist auf die Kanäle, in denen die Gemeinde Entscheidungen veröffentlicht.",
+          "Du bestätigst, dass du so etwas gehört hast, betonst aber, dass es noch nicht offiziell ist, damit sie sich rechtzeitig darauf einstellen kann.",
+          "Du erklärst, dass solche Fragen nicht am Schalter beantwortet werden, und bittest sie, eine E-Mail zu schreiben, damit sie Antwort erhält.",
+          "Du beruhigst sie und sagst, dass das Schwimmbad bestimmt nicht geschlossen wird, weil es bei den Einwohnern sehr beliebt ist."
         ],
         "answer": 0,
         "explanation": "Keine Gerüchte verbreiten, aber auf verlässliche Informationsquellen hinweisen ist korrekt. Ein Gerücht zu bestätigen oder zu dementieren ist unprofessionell, und das Abweisen der Frage ist unnötig distanziert.",
@@ -3879,9 +3879,9 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du rufst seinen Vermieter an, um die Wohnadresse telefonisch bestätigen zu lassen, und schließt die Anmeldung ab.",
-          "Du sagst ihm, dass ohne Mietvertrag nichts geht, und bittest ihn, einen neuen Termin über das Portal zu buchen.",
-          "Du nimmst die Anmeldung trotzdem an und lässt ihn den Mietvertrag später nachreichen, damit sein Weg nicht umsonst war.",
+          "Du rufst seinen Vermieter an, lässt dir die Wohnadresse telefonisch bestätigen und schließt die Anmeldung dann wie üblich ab.",
+          "Du sagst ihm, dass ohne Mietvertrag nichts möglich ist, und bittest ihn, über das Portal einen neuen Termin zu buchen, wie es vorgesehen ist.",
+          "Du nimmst die Anmeldung trotzdem an und lässt ihn den Mietvertrag später nachreichen, damit sein Weg heute nicht umsonst war.",
           "Du erklärst, warum der Nachweis nötig ist, prüfst, ob er ihn digital vorlegen kann, und bietest sonst einen zeitnahen Termin an."
         ],
         "answer": 3,
@@ -3892,10 +3892,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du ignorierst ihn und rufst den nächsten Bürger auf, bis er sich von selbst wieder beruhigt hat.",
-          "Du gibst seiner Forderung nach, um die Situation schnell zu beenden und die anderen Wartenden zu schützen.",
-          "Du bleibst ruhig, setzt eine klare Grenze („So kann ich Ihnen nicht helfen“), bietest bei Beruhigung weitere Hilfe an und holst bei anhaltender Bedrohung Unterstützung gemäß Sicherheitsprotokoll.",
-          "Du schreist zurück, damit er merkt, dass du dich nicht einschüchtern lässt, und forderst ihn auf, zu gehen."
+          "Du reagierst nicht auf ihn und rufst den nächsten Bürger auf, weil sich solche Personen erfahrungsgemäß von selbst wieder beruhigen.",
+          "Du gibst seiner Forderung nach, um die Situation schnell zu beenden und die anderen Wartenden vor einer weiteren Eskalation zu schützen.",
+          "Du bleibst ruhig, setzt eine klare Grenze, bietest bei Beruhigung weitere Hilfe an und holst bei Bedrohung Unterstützung gemäß Protokoll.",
+          "Du wirst ebenfalls laut und forderst ihn auf, das Gebäude zu verlassen, damit er merkt, dass du dich nicht einschüchtern lässt."
         ],
         "answer": 2,
         "explanation": "Ruhige Grenzsetzung mit Gesprächsangebot und Sicherheitsvorkehrung deeskaliert und schützt alle. Zurückschreien eskaliert, Nachgeben belohnt Aggression, und Ignorieren kann die Lage verschärfen.",
@@ -3905,10 +3905,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du lehnst die Bitte ab und weist ihn darauf hin, dass das Fälschen von Dokumenten strafbar ist.",
-          "Du erklärst, dass du das Datum nicht ändern darfst, und bietest an, ihm eine Bestätigung über den tatsächlichen Antragszeitpunkt auszustellen, die er dem Arbeitgeber vorlegen kann.",
-          "Du trägst das gewünschte Datum ein, da es nur um wenige Tage geht und niemand dadurch einen Nachteil hat.",
-          "Du sagst ihm, du würdest das ausnahmsweise tun, wenn er es niemandem erzählt."
+          "Du lehnst die Bitte ab und weist ihn ausdrücklich darauf hin, dass das Fälschen von Dokumenten strafbar ist.",
+          "Du lehnst die Änderung ab und bietest ihm eine Bestätigung über den tatsächlichen Antragszeitpunkt für den Arbeitgeber an.",
+          "Du trägst das gewünschte Datum ein, weil es nur um wenige Tage geht und dadurch niemandem ein Nachteil entsteht.",
+          "Du sagst ihm, du würdest das ausnahmsweise tun, wenn er es niemandem erzählt, weil er dir in seiner Lage leidtut."
         ],
         "answer": 1,
         "explanation": "Die Regel wird eingehalten und eine legale, hilfreiche Alternative angeboten. Rückdatieren ist Urkundenfälschung, und eine bloße Belehrung ohne Hilfe wirkt unnötig konfrontativ.",
@@ -3918,10 +3918,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du suchst mit ihm einen ruhigeren Platz, sprichst deutlich mit Blickkontakt und ergänzt wichtige Informationen schriftlich.",
-          "Du sprichst einfach deutlich lauter, damit er dich auch im lauten Schalterbereich gut verstehen kann.",
-          "Du gibst ihm das Informationsblatt mit und sagst, dass dort alles Wichtige steht, was er wissen muss.",
-          "Du bittest ihn, beim nächsten Mal eine Begleitperson mitzubringen, die für ihn übersetzen kann."
+          "Du suchst mit ihm einen ruhigeren Platz, sprichst deutlich mit Blickkontakt und ergänzt das Wichtigste schriftlich.",
+          "Du sprichst deutlich lauter, damit er dich trotz des Lärms im Schalterbereich versteht und das Gespräch nicht unterbrochen werden muss.",
+          "Du gibst ihm das Informationsblatt mit, weil dort alles Wichtige steht und er es zu Hause in Ruhe und ohne Lärm nachlesen kann.",
+          "Du bittest ihn, beim nächsten Mal eine Begleitperson mitzubringen, damit keine wichtigen Informationen verloren gehen."
         ],
         "answer": 0,
         "explanation": "Eine ruhige Umgebung, Blickkontakt und schriftliche Ergänzung ermöglichen echte Kommunikation. Lautes Sprechen ist oft unangenehm und hilft wenig, eine Begleitperson zu verlangen ist ausgrenzend, und ein Blatt ersetzt keine Beratung.",
@@ -3931,10 +3931,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du brichst das Gespräch sofort ab und erklärst ihm, dass er wegen der Aufnahme heute nicht mehr bedient wird.",
-          "Du nimmst ihm das Handy kurz ab, um die Aufnahme zu stoppen, und gibst es ihm nach dem Gespräch zurück.",
-          "Du setzt das Gespräch fort, als wäre nichts passiert, um keinen Konflikt zu verursachen.",
-          "Du bittest ihn ruhig, die Aufnahme zu beenden, erklärst, dass du nicht gefilmt werden möchtest, und bietest an, das Gespräch danach normal fortzusetzen."
+          "Du brichst das Gespräch sofort ab und erklärst ihm, dass er wegen der Aufnahme heute nicht mehr bedient wird, um dich zu schützen.",
+          "Du nimmst ihm das Handy kurz ab, um die Aufnahme zu stoppen, und gibst es ihm nach dem Gespräch unbeschädigt zurück.",
+          "Du setzt das Gespräch fort, als wäre nichts passiert, weil jeder Hinweis auf die Aufnahme nur einen Konflikt auslösen würde.",
+          "Du bittest ihn ruhig, die Aufnahme zu beenden, da du nicht gefilmt werden möchtest, und setzt das Gespräch danach normal fort."
         ],
         "answer": 3,
         "explanation": "Eine klare, ruhige Bitte mit Fortsetzungsangebot schützt deine Persönlichkeitsrechte ohne Eskalation. Das Handy wegzunehmen ist ein Übergriff, Ignorieren duldet die Verletzung, und sofortiger Abbruch eskaliert unnötig.",
@@ -3944,10 +3944,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du bittest zwei Kollegen, ihn mit dem Rollstuhl die Treppe hinaufzutragen, damit er persönlich vorsprechen kann.",
-          "Du nimmst den Antrag selbst entgegen und versicherst ihm, dass er sicher vollständig ist, ohne ihn genauer zu prüfen.",
-          "Du bittest eine zuständige Person, ins Erdgeschoss zu kommen, und ermöglichst ihm dort in einem ruhigen Raum die Abgabe und Beratung.",
-          "Du erklärst ihm, dass das Gebäude leider nicht barrierefrei ist, und empfiehlst ihm, den Antrag per Post zu schicken."
+          "Du bittest zwei Kollegen, ihn mit dem Rollstuhl die Treppe hinaufzutragen, damit er wie alle anderen persönlich vorsprechen kann.",
+          "Du nimmst den Antrag selbst entgegen und versicherst ihm, dass er vollständig ist, damit er nicht noch einmal kommen muss.",
+          "Du bittest eine zuständige Person ins Erdgeschoss und ermöglichst ihm dort in einem ruhigen Raum die Abgabe und Beratung.",
+          "Du erklärst ihm, dass das Gebäude leider nicht barrierefrei ist, und empfiehlst ihm, den Antrag per Post zu schicken, da das sicher ankommt."
         ],
         "answer": 2,
         "explanation": "Die Verwaltung kommt zum Bürger – das ist barrierefrei, würdevoll und sicher. Der Verweis auf Post ist ausgrenzend, das Tragen ist riskant und entwürdigend, und eine ungeprüfte Zusicherung ist ein leeres Versprechen.",
@@ -3957,10 +3957,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du versuchst, ihre Fragen so gut wie möglich selbst zu beantworten, damit sie nicht noch eine weitere Stelle aufsuchen muss.",
-          "Du erklärst ihr, welche Stelle zuständig ist, gibst ihr Kontaktdaten und Öffnungszeiten mit und weist auf die Möglichkeit einer Online-Anfrage hin.",
-          "Du rufst bei der Zukunftskeess an und klärst ihre Fragen für sie, während sie am Schalter wartet.",
-          "Du sagst ihr, dass sie hier falsch ist und sich bitte an die zuständige Stelle wenden soll."
+          "Du beantwortest ihre Fragen zum Kindergeld so gut wie möglich selbst, damit sie nicht noch eine weitere Stelle aufsuchen muss.",
+          "Du nennst ihr die zuständige Stelle mit Kontaktdaten und Öffnungszeiten und weist auf die Möglichkeit einer Online-Anfrage hin.",
+          "Du rufst bei der Zukunftskeess an und klärst ihre Fragen für sie, während sie am Schalter wartet, damit sie sofort eine Antwort hat.",
+          "Du sagst ihr, dass sie hier leider falsch ist und sich an die Zukunftskeess wenden muss, weil nur diese verbindlich Auskunft geben kann."
         ],
         "answer": 1,
         "explanation": "Eine klare, konkrete Weiterleitung mit allen nötigen Informationen hilft ihr am meisten. Eigene Antworten außerhalb der Zuständigkeit können falsch sein, ein bloßes Abweisen hilft nicht, und Anrufe in ihrem Namen sind ineffizient und datenschutzrechtlich heikel.",
@@ -3970,10 +3970,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du lässt ihn ausreden, fragst nach der Bescheidnummer, prüfst den Bescheid und erklärst ihm ruhig, wie er Einspruch einlegen kann, falls ein Fehler vorliegt.",
-          "Du sagst ihm freundlich, dass der Bescheid sicher falsch ist und du ihn sofort stornieren wirst, damit er sich keine Sorgen mehr machen muss.",
-          "Du verbindest ihn direkt mit der Buchhaltung, da Gebühren nicht in deinen Bereich fallen und du dort ohnehin nichts ändern kannst.",
-          "Du erklärst ihm, dass du bei diesem Ton nicht weitersprechen kannst, und bittest ihn, sich schriftlich an die Verwaltung zu wenden."
+          "Du lässt ihn ausreden, prüfst den Bescheid anhand der Nummer und erklärst ruhig, wie er Einspruch einlegen kann, falls ein Fehler vorliegt.",
+          "Du sagst ihm freundlich, dass der Bescheid sicher falsch ist und du ihn gleich stornierst, damit er sich keine weiteren Sorgen machen muss.",
+          "Du verbindest ihn direkt mit der Buchhaltung, weil Gebühren nicht in deinen Bereich fallen und du dort ohnehin nichts ändern kannst.",
+          "Du erklärst, dass du bei diesem Ton nicht weitersprechen kannst, und bittest ihn, sich schriftlich zu melden, damit alles sauber dokumentiert ist."
         ],
         "answer": 0,
         "explanation": "Zuhören, prüfen und den korrekten Weg (Einspruch) erklären deeskaliert und bleibt regelkonform. Eine sofortige Stornierung ohne Prüfung ist ein unrealistisches Versprechen, Abwimmeln und ungeprüftes Weiterverbinden lassen den Bürger allein.",
@@ -3983,10 +3983,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du nimmst den Antrag an und trägst als Eingangsdatum den Vortag ein, damit er noch fristgerecht ist.",
-          "Du nimmst den Antrag an und versicherst ihr, dass ein Tag Verspätung in der Praxis kein Problem darstellt.",
-          "Du lehnst die Annahme ab, da die Frist abgelaufen ist und ein verspäteter Antrag ohnehin keine Aussicht auf Erfolg hat.",
-          "Du nimmst den Antrag mit Eingangsdatum entgegen, erklärst offen, dass die Frist abgelaufen ist und die zuständige Stelle über die Annahme entscheidet, und informierst sie über mögliche Härtefallregelungen."
+          "Du nimmst den Antrag an und trägst als Eingangsdatum den Vortag ein, damit er noch fristgerecht ist und sie keinen Nachteil hat.",
+          "Du nimmst den Antrag an und versicherst ihr, dass ein Tag Verspätung in der Praxis kein Problem ist, damit sie sich keine Sorgen macht.",
+          "Du lehnst die Annahme ab, weil die Frist abgelaufen ist und ein verspäteter Antrag ohnehin keine realistische Aussicht auf Erfolg hat.",
+          "Du nimmst den Antrag mit Eingangsdatum an, sagst offen, dass die Frist abgelaufen ist, und informierst über mögliche Härtefallregeln."
         ],
         "answer": 3,
         "explanation": "Ehrliche Information, korrekte Dokumentation und Hinweis auf mögliche Ausnahmeverfahren sind fair und regelkonform. Eine Zusicherung ist ein falsches Versprechen, die Ablehnung der Annahme übergeht mögliche Härtefälle, und Rückdatieren ist ein schwerer Regelverstoß.",
@@ -3996,10 +3996,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du sagst ihm, dass Englisch keine Amtssprache ist und er das Formular in einer der Amtssprachen ausfüllen muss.",
-          "Du füllst das Formular für ihn aus und lässt ihn nur noch unterschreiben, um Zeit zu sparen.",
-          "Du erklärst ihm die Felder des Formulars auf Englisch, lässt ihn es selbst ausfüllen und weist ggf. auf englischsprachige Informationsseiten hin.",
-          "Du übersetzt das Formular schnell schriftlich ins Englische, damit er eine offizielle englische Version hat."
+          "Du sagst ihm, dass Englisch keine Amtssprache ist und er das Formular deshalb in einer der Amtssprachen ausfüllen muss.",
+          "Du füllst das Formular für ihn aus und lässt ihn nur noch unterschreiben, damit es schnell geht und keine Fehler passieren.",
+          "Du erklärst ihm die Felder auf Englisch, lässt ihn selbst ausfüllen und nennst englischsprachige Infoseiten.",
+          "Du übersetzt das Formular schnell schriftlich ins Englische, damit er eine verständliche Version vor sich hat."
         ],
         "answer": 2,
         "explanation": "Mündliche Erklärung in seiner Sprache hilft, ohne Zuständigkeiten zu verletzen. Die starre Haltung ist wenig bürgernah, Ausfüllen für ihn birgt Fehlerrisiken, und eine selbstgemachte Übersetzung ist kein offizielles Dokument.",
@@ -4009,10 +4009,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du gibst ihm die Auskunft, da er die Antragsnummer kennt und damit glaubhaft macht, dass er zur Familie gehört.",
-          "Du erklärst, dass du ohne Vollmacht keine Auskunft geben darfst, und erläuterst, wie sein Vater ihn bevollmächtigen oder selbst anrufen kann.",
-          "Du sagst ihm, dass du am Telefon grundsätzlich keine Auskünfte gibst, und legst nach einem kurzen Gruß auf.",
-          "Du bestätigst nur, dass ein Antrag existiert, nennst aber keine Details zum Stand der Bearbeitung."
+          "Du gibst ihm die Auskunft, weil er die Antragsnummer kennt und damit glaubhaft macht, dass er tatsächlich zur Familie gehört.",
+          "Du erklärst, dass du ohne Vollmacht keine Auskunft geben darfst, und wie sein Vater ihn bevollmächtigen oder selbst anrufen kann.",
+          "Du sagst ihm, dass am Telefon grundsätzlich keine Auskünfte erteilt werden, und verabschiedest dich, um keine Daten preiszugeben.",
+          "Du bestätigst nur, dass ein Antrag existiert, nennst aber keine Details zum Stand, damit er beruhigt ist und nichts Vertrauliches erfährt."
         ],
         "answer": 1,
         "explanation": "Die Datenschutzregel wird eingehalten und ein konkreter Weg zur Lösung aufgezeigt. Bereits die Bestätigung eines Antrags ist eine unzulässige Auskunft, und eine Antragsnummer ersetzt keine Vollmacht; ein schroffes Auflegen ist unhöflich.",
@@ -4022,10 +4022,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du bestätigst den Eingang, informierst ihn, dass du die Frage mit der Fachabteilung klärst, nennst eine realistische Antwortfrist und antwortest dann verbindlich.",
-          "Du antwortest nach deinem besten Wissen, dass vermutlich keine Genehmigung nötig ist, damit er nicht lange warten muss.",
-          "Du leitest die E-Mail ohne Kommentar an die Fachabteilung weiter und gehst davon aus, dass sie sich meldet.",
-          "Du schreibst ihm, dass er zur Sicherheit auf jeden Fall eine Genehmigung beantragen soll."
+          "Du bestätigst den Eingang, klärst die Frage mit der Fachabteilung und nennst ihm eine realistische Antwortfrist.",
+          "Du antwortest nach bestem Wissen, dass vermutlich keine Genehmigung nötig ist, damit er nicht unnötig lange auf eine Antwort warten muss.",
+          "Du leitest die E-Mail an die Fachabteilung weiter, weil diese die Rechtslage kennt und ihm direkt eine fundierte Antwort geben kann.",
+          "Du schreibst ihm, dass er zur Sicherheit auf jeden Fall eine Genehmigung beantragen soll, damit er später keine Probleme bekommt."
         ],
         "answer": 0,
         "explanation": "Rückfrage bei der Fachabteilung mit Zwischenbescheid und Zeitangabe sichert eine korrekte Antwort. Vermutungen können falsch sein, ein unnötiger Antrag belastet ihn, und eine Weiterleitung ohne Rückmeldung lässt ihn im Ungewissen.",
@@ -4035,10 +4035,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du bearbeitest seinen Antrag schnell und unkompliziert, achtest aber darauf, dass alle Unterlagen vollständig sind.",
-          "Du lachst darüber und versprichst, dir seine Akte später „ganz in Ruhe“ anzusehen, wenn weniger los ist.",
-          "Du sagst ihm deutlich, dass er dich in eine unangenehme Lage bringt, und forderst ihn auf, den Schalter zu verlassen.",
-          "Du behandelst ihn freundlich, aber genau wie alle anderen, erklärst kurz, dass du keine Bevorzugung geben darfst, und bittest bei Befangenheit eine Kollegin, den Fall zu übernehmen."
+          "Du bearbeitest seinen Antrag zügig und unkompliziert, achtest aber darauf, dass alle Unterlagen vollständig und korrekt sind.",
+          "Du lachst darüber und versprichst, dir seine Akte später in Ruhe anzusehen, wenn weniger los ist, damit die Wartenden nichts merken.",
+          "Du sagst ihm deutlich, dass er dich in eine unangenehme Lage bringt, und forderst ihn auf, den Schalter sofort zu verlassen.",
+          "Du behandelst ihn wie alle anderen, erklärst, dass du niemanden bevorzugen darfst, und gibst den Fall bei Befangenheit ab."
         ],
         "answer": 3,
         "explanation": "Gleichbehandlung und Vermeidung von Interessenkonflikten sind zentral. Beschleunigte Bearbeitung und ein privates Versprechen sind Bevorzugung, und ihn wegzuschicken ist unnötig schroff.",
@@ -4048,10 +4048,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du erklärst ihm, dass dein Vorgesetzter keine Zeit für Bürgergespräche hat.",
-          "Du sagst ihm, dass dein Vorgesetzter heute nicht im Haus ist, damit er mit dir spricht.",
-          "Du fragst freundlich nach seinem Anliegen, bietest an, es selbst zu klären, und versicherst ihm, dass du deinen Vorgesetzten einbeziehst, falls du nicht weiterhelfen kannst.",
-          "Du holst sofort deinen Vorgesetzten, da der Bürger ein Recht darauf hat, mit ihm zu sprechen."
+          "Du erklärst ihm, dass dein Vorgesetzter keine Bürgergespräche führt und er sich deshalb mit dir zufriedengeben muss.",
+          "Du sagst ihm, dass dein Vorgesetzter heute nicht im Haus ist, damit er mit dir spricht und das Gespräch nicht weiter verzögert wird.",
+          "Du fragst nach seinem Anliegen, bietest an, es selbst zu klären, und ziehst deinen Vorgesetzten hinzu, falls nötig.",
+          "Du holst sofort deinen Vorgesetzten, weil der Bürger ein Recht darauf hat und sich die Situation so am schnellsten entspannt."
         ],
         "answer": 2,
         "explanation": "Zuerst das Anliegen klären und eine Eskalation offen lassen ist effizient und respektvoll. Sofortiges Holen umgeht die Klärung, eine pauschale Absage ist abweisend, und eine Notlüge ist unehrlich.",
@@ -4074,10 +4074,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du erklärst, dass du aus Sicherheitsgründen nur an die hinterlegte Adresse senden darfst, und erläuterst, wie sie ihre Kontaktdaten über den offiziellen Weg ändern kann.",
-          "Du schickst die Bescheinigung an die neue Adresse, da sie ihren Namen und ihr Geburtsdatum korrekt genannt hat.",
-          "Du schickst die Bescheinigung an beide Adressen, damit sie sie auf jeden Fall erhält.",
-          "Du lehnst die Anfrage ab, da Bescheinigungen grundsätzlich nur per Post verschickt werden dürfen."
+          "Du sendest nur an die hinterlegte Adresse und erklärst ihr, wie sie ihre Kontaktdaten offiziell ändern kann.",
+          "Du schickst die Bescheinigung an die neue Adresse, weil sie ihren Namen und ihr Geburtsdatum korrekt und ohne Zögern genannt hat.",
+          "Du schickst die Bescheinigung an beide Adressen, damit sie sie auf jeden Fall erhält und nicht noch einmal anrufen muss.",
+          "Du lehnst die Anfrage ab, weil Bescheinigungen aus Sicherheitsgründen grundsätzlich nur per Post verschickt werden dürfen."
         ],
         "answer": 0,
         "explanation": "Die Sicherheitsregel wird eingehalten und ein Weg zur Datenänderung aufgezeigt. Name und Geburtsdatum reichen nicht als sichere Identifizierung, die Behauptung einer Postpflicht ist falsch, und das Senden an beide Adressen verletzt den Datenschutz.",
@@ -4087,10 +4087,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du sagst ihm deutlich, dass Vordrängen nicht geduldet wird, und forderst ihn auf, sich hinten anzustellen.",
-          "Du ignorierst ihn und bedienst weiter den Bürger, der gerade an der Reihe ist.",
-          "Du beantwortest seine kurze Frage schnell, da es nur ein paar Sekunden dauert und niemanden wirklich aufhält.",
-          "Du erklärst freundlich, dass du zuerst die Wartenden bedienen musst, und bittest ihn, eine Nummer zu ziehen, oder weist auf Info-Theke oder Website hin, falls es nur eine allgemeine Frage ist."
+          "Du sagst ihm deutlich, dass Vordrängen nicht geduldet wird, und forderst ihn auf, sich hinten anzustellen, damit alle es mitbekommen.",
+          "Du reagierst nicht auf ihn und bedienst weiter den Bürger, der an der Reihe ist, weil jede Antwort ihn zum Vordrängen ermutigen würde.",
+          "Du beantwortest seine kurze Frage schnell, weil es nur ein paar Sekunden dauert und die Wartenden dadurch kaum aufgehalten werden.",
+          "Du erklärst freundlich, dass die Wartenden zuerst dran sind, bittest ihn, eine Nummer zu ziehen, und nennst die Info-Theke als Alternative."
         ],
         "answer": 3,
         "explanation": "Fairness gegenüber den Wartenden bleibt gewahrt, und es wird eine schnelle Alternative angeboten. Sofortiges Beantworten bevorzugt ihn, ein scharfer Ton eskaliert, und Ignorieren ist unhöflich.",
@@ -4100,10 +4100,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du erklärst, dass eine Zusage am Telefon nicht verbindlich ist und er die Gebühr bezahlen muss.",
-          "Du erlässt die Gebühr, da du davon ausgehen musst, dass die Kollegin eine Zusage gemacht hat.",
-          "Du nimmst seine Schilderung ernst, erklärst den Aktenstand, notierst das Gespräch und sicherst zu, dass du den Sachverhalt mit der Kollegin klärst und ihm bis zu einem genannten Termin Bescheid gibst.",
-          "Du sagst ihm, dass die Kollegin so etwas nicht zugesagt haben kann, da sie dazu nicht befugt ist."
+          "Du erklärst, dass telefonische Zusagen nicht verbindlich sind und er die Gebühr deshalb wie im Bescheid angegeben bezahlen muss.",
+          "Du erlässt die Gebühr, weil du davon ausgehen musst, dass die Kollegin die Zusage gemacht hat, und der Bürger nicht leiden soll.",
+          "Du nimmst ihn ernst, notierst den Fall, klärst ihn mit der Kollegin und gibst ihm bis zu einem genannten Termin Bescheid.",
+          "Du sagst ihm, dass die Kollegin so etwas nicht zugesagt haben kann, weil sie dazu gar nicht befugt ist, und das Thema damit erledigt ist."
         ],
         "answer": 2,
         "explanation": "Ernst nehmen, dokumentieren und verbindlich nachklären ist fair gegenüber Bürger und Kollegin. Ein ungeprüfter Erlass überschreitet die Befugnis, das Bestreiten unterstellt ihm eine Lüge, und eine pauschale Zahlungspflicht ignoriert den offenen Sachverhalt.",
@@ -4113,10 +4113,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du bittest ihn, sein Anliegen am Telefon zu schildern, da E-Mails dieser Länge nicht bearbeitet werden können.",
-          "Du antwortest höflich, fasst kurz zusammen, was du verstanden hast, und stellst gezielte Rückfragen, um das Anliegen zu klären.",
-          "Du antwortest mit einem Standardtext, dass die Anfrage eingegangen ist und in den nächsten Wochen bearbeitet wird.",
-          "Du leitest die E-Mail an alle Abteilungen weiter, die möglicherweise zuständig sein könnten, damit sich jemand darum kümmert."
+          "Du bittest ihn, sein Anliegen telefonisch zu schildern, weil sich Unklarheiten im Gespräch schneller ausräumen lassen als per E-Mail.",
+          "Du fasst kurz zusammen, was du verstanden hast, und stellst ihm höflich gezielte Rückfragen, um sein Anliegen zu klären.",
+          "Du antwortest mit dem Standardtext, dass die Anfrage eingegangen ist und bearbeitet wird, damit er zumindest eine Rückmeldung erhält.",
+          "Du leitest die E-Mail an alle möglicherweise zuständigen Abteilungen weiter, damit sich sicher jemand mit Fachwissen darum kümmert."
         ],
         "answer": 1,
         "explanation": "Gezielte Rückfragen klären das Anliegen effizient und zeigen Wertschätzung. Massenweiterleitung erzeugt Chaos und Datenschutzprobleme, die Standardantwort verzögert ohne Klärung, und das Abweisen der E-Mail ist unhöflich.",
@@ -4126,10 +4126,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du gehst das Schreiben mit ihr durch, erklärst die wichtigsten Punkte in einfachen Worten und notierst ihr, was sie bis wann tun muss.",
-          "Du gibst ihr recht, dass das Schreiben schlecht formuliert ist, und sagst, dass die Kollegen sich besser ausdrücken sollten.",
-          "Du empfiehlst ihr, sich das Schreiben von einem Anwalt erklären zu lassen, um sicherzugehen.",
-          "Du erklärst ihr, dass Verwaltungsschreiben rechtlich präzise sein müssen und deshalb Fachbegriffe enthalten."
+          "Du gehst das Schreiben mit ihr durch, erklärst es in einfachen Worten und notierst, was sie bis wann tun muss.",
+          "Du gibst ihr recht, dass das Schreiben schlecht formuliert ist, und sagst, dass die Kollegen sich verständlicher ausdrücken sollten.",
+          "Du empfiehlst ihr, sich das Schreiben von einem Anwalt erklären zu lassen, damit sie rechtlich auf der sicheren Seite ist.",
+          "Du erklärst ihr, dass Verwaltungsschreiben rechtlich präzise sein müssen und Fachbegriffe deshalb leider unvermeidbar sind."
         ],
         "answer": 0,
         "explanation": "Verständliche Erklärung plus konkrete nächste Schritte lösen ihr Problem direkt. Die Rechtfertigung hilft ihr nicht, Kritik an Kollegen ist unprofessionell, und der Anwaltsverweis ist unnötig aufwendig.",
@@ -4139,10 +4139,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du erklärst, dass die Steuer sinnvoll ist und die Gemeinde sie dringend braucht, um ihre Aufgaben zu erfüllen.",
-          "Du sagst, dass du darauf nicht antworten wirst, und bittest ihn, zum eigentlichen Anliegen zu kommen.",
-          "Du sagst ihm ehrlich, dass du die Steuer auch für ungerecht hältst, um Verständnis zu zeigen.",
-          "Du erklärst freundlich, dass du dich als Bedienstete neutral verhältst, bietest an, die Regelung sachlich zu erklären, und nennst ihm den Weg, wie er seine Meinung an den Gemeinderat richten kann."
+          "Du erklärst, dass die Steuer sinnvoll ist und die Gemeinde sie dringend braucht, damit er die Gründe für die Entscheidung versteht.",
+          "Du sagst, dass du darauf nicht antworten wirst, und bittest ihn, zu seinem eigentlichen Anliegen zu kommen, damit es weitergeht.",
+          "Du sagst ihm ehrlich, dass du die Steuer auch für ungerecht hältst, um Verständnis zu zeigen und das Gespräch zu entspannen.",
+          "Du bleibst neutral, bietest an, die Regelung sachlich zu erklären, und nennst den Weg, seine Meinung an den Gemeinderat zu richten."
         ],
         "answer": 3,
         "explanation": "Neutralität wahren und trotzdem sachliche Hilfe und einen Beteiligungsweg anbieten ist professionell. Persönliche politische Wertungen (in beide Richtungen) verletzen die Neutralität, und ein knappes Abblocken wirkt abweisend.",
@@ -4152,10 +4152,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du bietest ihr privat an, dass sie mit den Kindern für eine Nacht bei dir übernachten kann.",
-          "Du versicherst ihr, dass die Gemeinde verpflichtet ist, ihr noch heute eine Wohnung zur Verfügung zu stellen.",
-          "Du nimmst dir Zeit, kontaktierst sofort den Sozialdienst oder den Notdienst und bleibst bei ihr, bis eine konkrete Lösung für die Nacht in Sicht ist.",
-          "Du gibst ihr die Adresse des Sozialamts und bittest sie, morgen früh dort vorzusprechen, da es heute schon spät ist."
+          "Du bietest ihr privat an, mit den Kindern eine Nacht bei dir zu übernachten, weil die Kinder auf keinen Fall draußen schlafen dürfen.",
+          "Du versicherst ihr, dass die Gemeinde verpflichtet ist, ihr noch heute eine Wohnung zu stellen, damit sie sich etwas beruhigen kann.",
+          "Du kontaktierst sofort den Sozialdienst oder Notdienst und bleibst bei ihr, bis eine konkrete Lösung für die Nacht in Sicht ist.",
+          "Du gibst ihr die Adresse des Sozialamts und bittest sie, morgen früh dort vorzusprechen, weil die Fachleute heute nicht mehr erreichbar sind."
         ],
         "answer": 2,
         "explanation": "In einem akuten Notfall ist sofortiges Einschalten der zuständigen Stellen und Begleitung richtig. Der Verweis auf morgen lässt sie in Not, private Unterbringung überschreitet professionelle Grenzen, und eine Wohnungsgarantie ist ein unrealistisches Versprechen.",
@@ -4165,10 +4165,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du liest ihr nur die Überschrift und den Betreff vor und sagst ihr, sie solle bei Fragen die zuständige Abteilung anrufen.",
-          "Du liest ihr das Schreiben an einem ungestörten Platz vor, erklärst den Inhalt verständlich und weist auf barrierefreie Kommunikationsformen für künftige Schreiben hin.",
-          "Du bittest sie, das Schreiben mit einer Vertrauensperson zu Hause durchzugehen, da es persönliche Daten enthält.",
-          "Du liest ihr das Schreiben laut am Schalter vor, damit es schnell geht, auch wenn andere Wartende mithören."
+          "Du liest ihr Betreff und Überschrift vor und bittest sie, bei Fragen die zuständige Abteilung anzurufen, die den Fall genau kennt.",
+          "Du liest es ihr an einem ungestörten Platz vor, erklärst es verständlich und nennst barrierefreie Wege für künftige Schreiben.",
+          "Du bittest sie, das Schreiben mit einer Vertrauensperson zu Hause durchzugehen, weil es persönliche Daten enthält.",
+          "Du liest ihr das Schreiben direkt am Schalter laut vor, damit es schnell geht und sie nicht lange warten muss."
         ],
         "answer": 1,
         "explanation": "Vorlesen in geschütztem Rahmen mit Erklärung und Hinweis auf barrierefreie Alternativen ist hilfreich und datenschutzkonform. Wegschicken oder Teilinformation hilft ihr nicht, und lautes Vorlesen vor anderen verletzt den Datenschutz.",
@@ -4178,10 +4178,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du lässt ihn auf Luxemburgisch erzählen, antwortest so gut wie möglich in einfacher Sprache, prüfst durch Nachfragen, ob er dich versteht, und holst bei Bedarf eine luxemburgischsprachige Kollegin dazu.",
-          "Du bittest ihn, auf Deutsch oder Französisch zu wechseln, da du sonst nicht korrekt antworten kannst.",
-          "Du verbindest ihn sofort mit einer Kollegin, die Luxemburgisch spricht, ohne dir sein Anliegen anzuhören.",
-          "Du antwortest auf Deutsch, da er als Luxemburger Deutsch sicher gut genug versteht."
+          "Du lässt ihn Luxemburgisch sprechen, antwortest in einfacher Sprache, prüfst das Verständnis und holst bei Bedarf eine Kollegin dazu.",
+          "Du bittest ihn, auf Deutsch oder Französisch zu wechseln, weil du nur so sicher sein kannst, dass deine Antworten korrekt ankommen.",
+          "Du verbindest ihn sofort mit einer luxemburgischsprachigen Kollegin, damit er von Anfang an in seiner Sprache beraten wird.",
+          "Du antwortest auf Deutsch, weil er als Luxemburger Deutsch in der Regel gut versteht und du so präzisere Auskünfte geben kannst."
         ],
         "answer": 0,
         "explanation": "Sein Anliegen wird angehört, das Verständnis geprüft und bei Bedarf Unterstützung geholt. Ihn zum Sprachwechsel aufzufordern ist wenig bürgernah, die sofortige Weiterleitung kann unnötig sein, und die Annahme über seine Deutschkenntnisse ist unsicher.",
@@ -4191,10 +4191,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du suchst im System nach einer ähnlichen Aktennummer und ordnest den Antrag der wahrscheinlich richtigen Akte zu.",
-          "Du legst die E-Mail ab, bis die Anhänge nachgereicht werden, da der Antrag ohnehin unvollständig ist.",
-          "Du antwortest, dass der Antrag unvollständig ist und daher nicht bearbeitet werden kann.",
-          "Du bestätigst den Eingang, weist freundlich auf die fehlenden Anhänge und die ungültige Aktennummer hin und erklärst, was er bis wann nachreichen muss."
+          "Du suchst im System nach einer ähnlichen Aktennummer und ordnest den Antrag der wahrscheinlich richtigen Akte zu, um Zeit zu sparen.",
+          "Du legst die E-Mail vorerst ab, bis die Anhänge nachgereicht werden, weil ein unvollständiger Antrag ohnehin nicht bearbeitet werden kann.",
+          "Du antwortest, dass der Antrag unvollständig ist und daher nicht bearbeitet werden kann, damit er weiß, woran er ist.",
+          "Du bestätigst den Eingang, weist auf die fehlenden Anhänge und die ungültige Nummer hin und nennst, was bis wann nachzureichen ist."
         ],
         "answer": 3,
         "explanation": "Eine klare Rückmeldung mit konkreten Angaben ermöglicht eine schnelle Vervollständigung. Stilles Ablegen lässt ihn im Unklaren, eine Zuordnung nach Vermutung riskiert Fehler und Datenschutzverletzungen, und eine bloße Ablehnung bietet keinen nächsten Schritt.",
@@ -4204,10 +4204,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du gibst ihr das Formular mit nach Hause und bittest sie, es dort in Ruhe auszufüllen und zurückzuschicken.",
-          "Du bittest sie, mit Lesebrille wiederzukommen, da du keine Formulare für Bürger ausfüllen darfst.",
-          "Du hilfst ihr beim Ausfüllen, indem du die Fragen vorliest und ihre Antworten einträgst, erklärst aber, dass die Unterschrift von ihr selbst kommen muss.",
-          "Du füllst das Formular aus und unterschreibst mit ihrem Einverständnis, da sie anwesend ist und zugestimmt hat."
+          "Du gibst ihr das Formular mit nach Hause, damit sie es dort mit Brille in Ruhe ausfüllen und zurückschicken kann.",
+          "Du bittest sie, mit Lesebrille wiederzukommen, weil Bedienstete keine Formulare für Bürger ausfüllen sollen.",
+          "Du liest ihr die Fragen vor, trägst ihre Antworten ein und erklärst, dass sie selbst unterschreiben muss.",
+          "Du füllst das Formular aus und unterschreibst mit ihrem Einverständnis, da sie anwesend ist und ausdrücklich zugestimmt hat."
         ],
         "answer": 2,
         "explanation": "Unterstützung beim Ausfüllen ist hilfreich, die Unterschrift bleibt aber persönlich. Für sie zu unterschreiben ist unzulässig, und sie wegzuschicken ist unnötig, wenn sofort geholfen werden kann.",
@@ -4217,10 +4217,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du entschuldigst dich und nimmst ihn als Nächsten dran, damit er sich beruhigt und die anderen nicht weiter stört.",
-          "Du zeigst Verständnis, erklärst kurz den Grund der Wartezeit, nennst eine realistische Einschätzung und prüfst, ob sein Anliegen online erledigt werden kann.",
-          "Du versprichst ihm, dass er in spätestens fünf Minuten an der Reihe ist, damit er wieder Platz nimmt.",
-          "Du erklärst ihm, dass alle Wartenden die gleiche Wartezeit haben und er sich bitte gedulden soll wie alle anderen auch."
+          "Du entschuldigst dich und nimmst ihn als Nächsten dran, damit er sich beruhigt und die anderen Wartenden nicht weiter gestört werden.",
+          "Du zeigst Verständnis, erklärst den Grund der Wartezeit, nennst eine realistische Einschätzung und prüfst, ob es online geht.",
+          "Du versprichst ihm, dass er in spätestens fünf Minuten an der Reihe ist, damit er sich beruhigt und wieder im Wartebereich Platz nimmt.",
+          "Du erklärst ihm, dass alle Wartenden gleich lange warten müssen und er sich bitte genauso gedulden soll wie alle anderen auch."
         ],
         "answer": 1,
         "explanation": "Verständnis, Transparenz und eine realistische Alternative entschärfen die Lage fair. Vordrängen lassen ist Bevorzugung, die reine Regelbelehrung bietet keine Hilfe, und ein unrealistisches Zeitversprechen führt zu neuem Ärger.",
@@ -4230,10 +4230,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du erklärst, warum eine beglaubigte Übersetzung nötig ist, gibst ihm eine Liste vereidigter Übersetzer und notierst, dass der Antrag nach Vorlage weiterbearbeitet wird.",
-          "Du lehnst den Antrag ab, da die Unterlagen nicht in einer Amtssprache eingereicht wurden.",
-          "Du lässt einen portugiesischsprachigen Kollegen die Urkunde kurz übersetzen, damit der Bürger keine Kosten hat.",
-          "Du übersetzt die Urkunde mit einem Online-Übersetzer selbst und legst den Ausdruck zur Akte."
+          "Du erklärst, warum eine beglaubigte Übersetzung nötig ist, und gibst ihm eine Liste vereidigter Übersetzer mit.",
+          "Du lehnst den Antrag ab, weil die Unterlagen nicht in einer Amtssprache vorliegen und so nicht geprüft werden können.",
+          "Du lässt einen portugiesischsprachigen Kollegen die Urkunde übersetzen, damit dem Bürger keine zusätzlichen Kosten entstehen.",
+          "Du übersetzt die Urkunde mit einem Online-Übersetzer selbst und legst den Ausdruck zur Akte, damit der Antrag weiterläuft."
         ],
         "answer": 0,
         "explanation": "Die Regel wird erklärt und mit konkreten Hilfen ein klarer Weg aufgezeigt. Eigene oder informelle Übersetzungen ersetzen keine beglaubigte Übersetzung, und eine sofortige Ablehnung ist unverhältnismäßig.",
@@ -4243,10 +4243,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du sagst ihm, dass er gute Chancen hat, da die Hecke offenbar zu hoch ist, und ermutigst ihn zur Klage.",
-          "Du rätst ihm von einer Klage ab, da solche Verfahren lange dauern und teuer sind.",
-          "Du erklärst ihm, dass private Streitigkeiten nicht Aufgabe der Gemeinde sind, und beendest das Gespräch.",
-          "Du hörst zu, erklärst, dass du keine Rechtsberatung geben darfst, informierst über die geltenden kommunalen Vorschriften zu Hecken und nennst Stellen für Rechtsberatung oder Schlichtung."
+          "Du sagst ihm, dass er gute Chancen hat, weil die Hecke offenbar zu hoch ist, und ermutigst ihn, seine Rechte vor Gericht durchzusetzen.",
+          "Du rätst ihm von einer Klage ab, weil solche Verfahren lange dauern, teuer sind und das Verhältnis zum Nachbarn dauerhaft belasten.",
+          "Du erklärst ihm, dass private Streitigkeiten nicht Aufgabe der Gemeinde sind, und beendest das Gespräch, damit andere drankommen.",
+          "Du erklärst, dass du keine Rechtsberatung gibst, nennst die Vorschriften zu Hecken und Stellen für Rechtsberatung oder Schlichtung."
         ],
         "answer": 3,
         "explanation": "Sachinformation im eigenen Zuständigkeitsbereich plus Hinweis auf geeignete Beratungsstellen ist hilfreich und regelkonform. Für oder gegen eine Klage zu raten ist unzulässige Rechtsberatung, und ein abruptes Ende ignoriert sein Anliegen.",
@@ -4256,10 +4256,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du rätst ihr, ihre Kinder oder Enkel zu bitten, den Termin online für sie zu buchen, da dies der offizielle Weg ist.",
-          "Du erklärst ihr ausführlich Schritt für Schritt, wie das Online-Portal funktioniert, und gibst ihr eine schriftliche Anleitung mit.",
-          "Du vereinbarst den Termin direkt für sie im System und gibst ihr eine schriftliche Bestätigung mit Datum und Uhrzeit.",
-          "Du sagst ihr, sie könne ausnahmsweise ohne Termin kommen und du würdest sie dann sofort an allen vorbei drannehmen."
+          "Du rätst ihr, Kinder oder Enkel um die Online-Buchung zu bitten, weil das der offizielle Weg ist und sie dann zu Hause Unterstützung hat.",
+          "Du erklärst ihr Schritt für Schritt, wie das Online-Portal funktioniert, und gibst ihr eine Anleitung mit, damit sie es künftig selbst kann.",
+          "Du buchst den Termin direkt für sie im System und gibst ihr eine schriftliche Bestätigung mit Datum und Uhrzeit mit.",
+          "Du sagst ihr, sie könne ausnahmsweise ohne Termin kommen, und du nimmst sie dann direkt dran, weil sie es mit dem Portal schwer hat."
         ],
         "answer": 2,
         "explanation": "Die direkte Terminbuchung am Schalter ist ein realistischer, barrierefreier Weg. Eine Anleitung hilft ohne Computer nicht, der Verweis auf Angehörige schiebt ab, und eine Bevorzugung in der Warteschlange ist nicht zulässig.",
@@ -4269,10 +4269,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du sprichst weiter Deutsch, aber besonders langsam und deutlich, da Deutsch eine der Amtssprachen in Luxemburg ist.",
-          "Du erklärst ihr in einfachem Französisch das Wesentliche und ziehst bei komplizierten Punkten eine französischsprachige Kollegin hinzu.",
-          "Du gibst ihr sofort das französische Merkblatt mit und bittest sie, sich bei Fragen per E-Mail zu melden.",
-          "Du bittest sie, beim nächsten Mal eine Person mitzubringen, die Deutsch spricht, da du sonst Fehler machen könntest."
+          "Du sprichst weiter Deutsch, aber langsam und deutlich, weil Deutsch ebenfalls Amtssprache ist und du so Übersetzungsfehler vermeidest.",
+          "Du erklärst ihr das Wesentliche in einfachem Französisch und ziehst bei komplizierten Punkten eine französischsprachige Kollegin hinzu.",
+          "Du gibst ihr das französische Merkblatt mit und bittest sie, sich bei Fragen per E-Mail zu melden, damit sie alles in Ruhe lesen kann.",
+          "Du bittest sie, beim nächsten Mal eine deutschsprachige Begleitperson mitzubringen, weil du sonst bei wichtigen Details Fehler machen könntest."
         ],
         "answer": 1,
         "explanation": "Französisch ist Amtssprache; die Kommunikation in ihrer Sprache mit Unterstützung bei Unklarheiten ist bürgernah und sicher. Die anderen Optionen schieben die Verantwortung auf die Bürgerin oder lassen sie ohne echte Hilfe gehen.",
@@ -4282,10 +4282,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du bedankst dich herzlich für die Geste, lehnst das Geschenk aber freundlich ab und erklärst, dass du als Bedienstete keine Geschenke annehmen darfst.",
-          "Du nimmst die Flasche an und stellst sie in die Teeküche, damit das ganze Team etwas davon hat.",
-          "Du lehnst das Geschenk ab und weist ihn darauf hin, dass ein solches Angebot als Bestechungsversuch gewertet werden könnte.",
-          "Du nimmst die Flasche an, da die Hilfe bereits abgeschlossen ist und es sich nur um eine nette Geste handelt."
+          "Du bedankst dich herzlich, lehnst das Geschenk aber freundlich ab und erklärst, dass du als Bedienstete keine Geschenke annehmen darfst.",
+          "Du nimmst die Flasche an und stellst sie in die Teeküche, damit das ganze Team etwas davon hat und niemand persönlich bevorzugt wird.",
+          "Du lehnst ab und weist ihn darauf hin, dass ein solches Angebot als Bestechungsversuch gewertet werden könnte, damit er gewarnt ist.",
+          "Du nimmst die Flasche an, weil die Hilfe bereits abgeschlossen ist und es sich nur um eine kleine, nachträgliche Geste der Dankbarkeit handelt."
         ],
         "answer": 0,
         "explanation": "Freundliche Ablehnung mit Erklärung wahrt die Integrität und die Beziehung. Die Annahme (auch für das Team) verstößt gegen die Regeln, und der Bestechungsvorwurf ist unnötig konfrontativ gegenüber einer gutgemeinten Geste.",
@@ -4295,10 +4295,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du sagst ihm, dass sich die Regeln kürzlich geändert haben, damit er nicht das Vertrauen in die Verwaltung verliert.",
-          "Du entschuldigst dich und versprichst ihm, seinen Antrag ab sofort bevorzugt zu bearbeiten, um den Fehler wiedergutzumachen.",
-          "Du erklärst ihm sachlich, welche Unterlagen fehlen, ohne auf die frühere Auskunft einzugehen, um keine Diskussion zu beginnen.",
-          "Du gibst deinen Fehler offen zu, entschuldigst dich, erklärst genau, welche Unterlagen nötig sind, und prüfst, ob du ihm einen weiteren Weg ersparen kannst."
+          "Du sagst ihm, dass sich die Regeln kürzlich geändert haben, damit er das Vertrauen in die Verwaltung und ihre Auskünfte nicht verliert.",
+          "Du entschuldigst dich und versprichst, seinen Antrag ab sofort bevorzugt zu bearbeiten, um den entstandenen Fehler wiedergutzumachen.",
+          "Du erklärst ihm sachlich, welche Unterlagen fehlen, ohne auf die frühere Auskunft einzugehen, um keine unnötige Diskussion zu beginnen.",
+          "Du gibst deinen Fehler offen zu, entschuldigst dich, nennst genau die nötigen Unterlagen und prüfst, ob du ihm einen Weg ersparen kannst."
         ],
         "answer": 3,
         "explanation": "Ehrlichkeit, Entschuldigung und praktische Hilfe stellen Vertrauen wieder her. Eine Ausrede ist unehrlich, Bevorzugung ist nicht zulässig, und das Verschweigen des eigenen Fehlers ist unprofessionell.",
@@ -4308,10 +4308,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du gibst ihr nur allgemeine Informationen, die ohnehin bekannt sind, damit sie nicht falsch berichtet.",
-          "Du bittest sie, ihre Fragen schriftlich zu schicken, und versprichst, dass du sie persönlich beantworten wirst.",
-          "Du erklärst freundlich, dass du keine Auskünfte an die Presse geben darfst, und gibst ihr die Kontaktdaten der zuständigen Pressestelle.",
-          "Du sagst „Kein Kommentar“ und legst auf, um keine Fehler zu machen."
+          "Du gibst ihr nur allgemeine Informationen, die ohnehin bekannt sind, damit sie nicht aus Unwissen falsch über die Dienststelle berichtet.",
+          "Du bittest sie, ihre Fragen schriftlich zu schicken, und versprichst, sie persönlich zu beantworten, damit nichts verfälscht wird.",
+          "Du erklärst freundlich, dass du keine Presseauskünfte geben darfst, und gibst ihr die Kontaktdaten der zuständigen Pressestelle.",
+          "Du sagst „Kein Kommentar“ und beendest das Gespräch sofort, weil jedes weitere Wort missverstanden und falsch zitiert werden könnte."
         ],
         "answer": 2,
         "explanation": "Presseanfragen gehören zur Pressestelle; die freundliche Weiterleitung ist korrekt und hilfreich. Eigene Auskünfte überschreiten die Befugnis, abruptes Auflegen wirkt schlecht, und persönliche Antworten zu versprechen ist regelwidrig.",
@@ -4321,10 +4321,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du sagst ihm, dass du keine Auskunft geben darfst, und beendest das Gespräch, um Missverständnisse zu vermeiden.",
-          "Du erklärst, dass du aus Datenschutzgründen keine Adressen herausgeben darfst, und informierst ihn über den offiziellen Weg eines begründeten Auskunftsantrags.",
-          "Du gibst ihm die Adresse, da es um die gemeinsamen Kinder geht und ein berechtigtes Interesse offensichtlich besteht.",
-          "Du bietest ihm an, die Adresse nur mündlich zu nennen, ohne sie schriftlich festzuhalten, damit keine Spuren entstehen."
+          "Du sagst ihm, dass du keine Auskunft geben darfst, und beendest das Gespräch zügig, um keine Missverständnisse entstehen zu lassen.",
+          "Du verweist auf den Datenschutz, gibst keine Adresse heraus und erklärst ihm den offiziellen Weg eines begründeten Auskunftsantrags.",
+          "Du gibst ihm die Adresse, weil es um die gemeinsamen Kinder geht und ein berechtigtes Interesse in diesem Fall offensichtlich besteht.",
+          "Du nennst ihm die Adresse nur mündlich, ohne sie schriftlich festzuhalten, damit keine Spuren entstehen und den Kindern geholfen ist."
         ],
         "answer": 1,
         "explanation": "Der Datenschutz wird eingehalten und gleichzeitig ein legitimer Weg aufgezeigt. Die Herausgabe der Adresse (auch mündlich) verletzt den Datenschutz und kann gefährlich sein; ein bloßes Nein ohne Hinweis lässt ihn ratlos zurück.",
@@ -4353,10 +4353,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du erzählst einigen Kolleginnen davon, damit der Druck auf ihn steigt.",
-          "Da das direkte Gespräch nichts bewirkt hat, informierst du sachlich deine Vorgesetzte.",
-          "Du sprichst ihn ein weiteres Mal an und lässt es danach endgültig dabei bewenden.",
-          "Du trägst deine eigenen Zeiten künftig ebenfalls etwas großzügiger ein."
+          "Du erzählst einigen Kolleginnen davon, damit der Druck auf ihn wächst und er sein Verhalten ändert.",
+          "Da das direkte Gespräch nichts bewirkt hat, informierst du nun sachlich deine Vorgesetzte darüber.",
+          "Du sprichst ihn noch einmal eindringlich an und lässt es danach dabei bewenden, um ihn nicht zu belasten.",
+          "Du trägst deine eigenen Zeiten künftig ebenfalls großzügiger ein, da es offenbar niemanden stört."
         ],
         "answer": 1,
         "explanation": "Bei einem wiederholten Integritätsproblem nach erfolglosem Gespräch ist die Einbindung der Vorgesetzten angemessen. Weiteres Dulden, Gerede oder Nachahmen sind falsch.",
@@ -4367,9 +4367,9 @@ window.EAG_DATA = {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
           "Du sprichst den Kollegen direkt auf die Datenschutzregeln an und klärst mit ihm, wie der Vorfall gemeldet wird.",
-          "Du meldest den Vorfall sofort dem Datenschutzbeauftragten, ohne mit dem Kollegen zu sprechen.",
-          "Du sagst nichts, da es seine Angelegenheit ist und dich nicht direkt betrifft.",
-          "Du bittest die Kollegin, die Daten bei sich zu löschen, und lässt es dabei bewenden."
+          "Du meldest den Vorfall sofort dem Datenschutzbeauftragten, ohne vorher mit dem Kollegen darüber zu sprechen.",
+          "Du sagst nichts, weil es seine Angelegenheit ist und er die Datenschutzregeln aus der Schulung selbst kennen muss.",
+          "Du bittest die Kollegin, die Daten bei sich zu löschen, damit kein Schaden entsteht, und lässt es dabei bewenden."
         ],
         "answer": 0,
         "explanation": "Ein Datenschutzverstoß muss angesprochen und ordnungsgemäß gemeldet werden; das direkte Gespräch verbindet beides. Schweigen oder nur Löschen reicht nicht, eine Meldung ohne Gespräch übergeht den Kollegen unnötig.",
@@ -4379,10 +4379,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du korrigierst ihre Fehler heimlich, ohne sie darauf anzusprechen.",
-          "Du fragst andere Kollegen, ob sie wissen, was mit ihr gerade los ist.",
-          "Du informierst die Vorgesetzte darüber, dass sich ihre Fehler häufen.",
-          "Du sprichst sie in einem ruhigen Moment an, fragst, wie es ihr geht, und bietest Unterstützung an."
+          "Du korrigierst ihre Fehler unauffällig selbst, damit sie keinen Ärger bekommt und sich nicht schämen muss.",
+          "Du fragst vertraute Kollegen, ob sie wissen, was los ist, um sie danach besser unterstützen zu können.",
+          "Du informierst die Vorgesetzte über die gehäuften Fehler, damit sie gegebenenfalls Unterstützung organisiert.",
+          "Du sprichst sie in einem ruhigen Moment an, fragst, wie es ihr geht, und bietest ihr Unterstützung an."
         ],
         "answer": 3,
         "explanation": "Ein einfühlsames Gespräch zeigt Interesse und gibt ihr die Möglichkeit, sich zu öffnen. Heimliches Korrigieren, Melden oder Nachfragen bei anderen übergeht sie und kann sie bloßstellen.",
@@ -4392,10 +4392,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du nimmst es weiter hin, weil du Konflikte im Team möglichst vermeiden möchtest.",
-          "Du meldest das Verhalten direkt der Vorgesetzten, damit sie Konsequenzen zieht.",
-          "Du sprichst die Kollegin ruhig an, schilderst die Folgen für dich und fragst nach einer Lösung.",
-          "Du machst in ihrer Anwesenheit Bemerkungen darüber, wie angenehm pünktliche Kollegen sind."
+          "Du nimmst es weiter hin, weil ein gutes Teamklima wichtiger ist und du Konflikte möglichst vermeiden möchtest.",
+          "Du meldest das Verhalten der Vorgesetzten, weil sie für die Arbeitszeiten zuständig ist und notfalls Konsequenzen ziehen kann.",
+          "Du sprichst die Kollegin in Ruhe an, schilderst die Folgen für dich und fragst, ob ihr gemeinsam eine Lösung findet.",
+          "Du machst in ihrer Anwesenheit Bemerkungen über Pünktlichkeit, damit sie das Problem von selbst bemerkt."
         ],
         "answer": 2,
         "explanation": "Das direkte, sachliche Gespräch ist der erste Schritt und gibt ihr die Chance, etwas zu ändern. Sofortiges Melden, Sticheleien oder stilles Hinnehmen sind unangemessen.",
@@ -4418,10 +4418,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du sagst ihm ruhig, aber klar, dass du solche Bemerkungen unangemessen findest.",
-          "Du verlässt wortlos die Kaffeeküche und gehst an deinen Platz zurück.",
-          "Du lachst mit, um nicht als Spielverderber dazustehen.",
-          "Du erzählst der neuen Kollegin später, was über sie gesagt wurde."
+          "Du sagst ihm ruhig, aber klar, dass du solche Bemerkungen über Kolleginnen unangemessen findest.",
+          "Du verlässt wortlos die Kaffeeküche, um deutlich zu machen, dass du da nicht mitmachst.",
+          "Du lachst kurz mit, um die Stimmung nicht zu kippen und nicht als Spielverderber dazustehen.",
+          "Du erzählst der neuen Kollegin später davon, damit sie weiß, wie über sie gesprochen wird."
         ],
         "answer": 0,
         "explanation": "Abwertende Äußerungen sollten direkt und ruhig angesprochen werden. Mitlachen oder Weggehen duldet das Verhalten, und Weitererzählen verletzt die Betroffene unnötig.",
@@ -4431,10 +4431,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du sprichst weiter Luxemburgisch, da es die Sprache ist, die die meisten verwenden.",
-          "Du übersetzt ihnen nach der Besprechung nur die wichtigsten Ergebnisse.",
-          "Du schlägst ihnen vor, möglichst bald einen Luxemburgischkurs zu besuchen.",
-          "Du regst an, dass sich das Team für Besprechungen auf eine Sprache einigt, die alle verstehen."
+          "Du sprichst weiter Luxemburgisch, weil es die Sprache ist, die die Mehrheit im Team am besten beherrscht.",
+          "Du fasst ihnen nach der Besprechung die wichtigsten Ergebnisse auf Französisch zusammen, damit sie informiert sind.",
+          "Du schlägst ihnen vor, einen Luxemburgischkurs zu besuchen, damit sie den Besprechungen künftig folgen können.",
+          "Du regst an, dass sich das Team für Besprechungen auf eine gemeinsame Sprache einigt, die alle verstehen."
         ],
         "answer": 3,
         "explanation": "Eine gemeinsame Besprechungssprache ermöglicht allen eine gleichberechtigte Teilnahme. Die anderen Optionen lassen die Kolleginnen außen vor oder schieben das Problem auf sie ab.",
@@ -4444,10 +4444,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du schickst eine Rundmail, in der du auflistest, wer welche Anfragen vergessen hat.",
-          "Du bearbeitest künftig nur noch Mails, die ausdrücklich an dich gerichtet sind.",
-          "Du schlägst dem Team klare Regeln vor, etwa feste Tageszuständigkeiten und das Markieren bearbeiteter Mails.",
-          "Du beantwortest ab sofort alle Mails selbst, damit sicher nichts mehr liegen bleibt."
+          "Du schickst eine Rundmail mit einer Liste der liegengebliebenen Anfragen und den Namen der jeweils Verantwortlichen.",
+          "Du bearbeitest künftig nur noch Mails, die ausdrücklich an dich gerichtet sind, damit es keine Doppelarbeit gibt.",
+          "Du schlägst dem Team klare Regeln vor, etwa feste Tageszuständigkeiten und das Markieren bereits bearbeiteter Mails.",
+          "Du beantwortest ab sofort alle Mails selbst, damit sicher nichts mehr liegen bleibt und Bürger schnell Antwort bekommen."
         ],
         "answer": 2,
         "explanation": "Eine gemeinsame, verbindliche Regel löst das Problem dauerhaft. Alles allein zu machen überlastet dich, öffentliches Aufzählen beschämt, und Rückzug verschärft das Chaos.",
@@ -4457,10 +4457,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du bedankst dich später privat bei der Kollegin, sagst in der Sitzung aber nichts.",
+          "Du sagst in der Sitzung nichts, bedankst dich aber danach persönlich bei der Kollegin für ihre Arbeit.",
           "Du bedankst dich und stellst sofort klar, dass die Kollegin den Großteil der Arbeit geleistet hat.",
-          "Du gibst der Leiterin nach der Sitzung unter vier Augen einen Hinweis.",
-          "Du nimmst das Lob an, da du die Auswertung schließlich präsentiert hast."
+          "Du gibst der Leiterin nach der Sitzung unter vier Augen den Hinweis, wer die Arbeit eigentlich geleistet hat.",
+          "Du nimmst das Lob an, weil du die Auswertung präsentiert und die Ergebnisse aufbereitet hast."
         ],
         "answer": 1,
         "explanation": "Die Leistung der Kollegin sofort und offen zu würdigen ist fair und stärkt das Vertrauen im Team. Ein späterer privater Hinweis ist weniger wirksam, Schweigen oder Annehmen ist unredlich.",
@@ -4470,10 +4470,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du sprichst ihn an, erklärst die Folgen und bittest ihn, seine Termine künftig zeitnah einzutragen.",
-          "Du fragst vor jeder einzelnen Terminvergabe persönlich bei ihm nach.",
-          "Du sprichst das Problem beim nächsten Teammeeting vor allen an.",
-          "Du vergibst ab sofort überhaupt keine Termine mehr für ihn."
+          "Du sprichst ihn an, erklärst die Folgen und bittest ihn, Termine künftig zeitnah einzutragen.",
+          "Du fragst vor jeder Terminvergabe persönlich bei ihm nach, um sicherzugehen, dass er frei ist.",
+          "Du sprichst das Problem im nächsten Teammeeting vor allen an, damit alle die Kalenderregeln kennen.",
+          "Du vergibst keine Termine mehr für ihn, damit Bürger nicht erneut vergeblich erscheinen."
         ],
         "answer": 0,
         "explanation": "Das direkte Gespräch über die Folgen führt zu einer dauerhaften Lösung. Keine Termine mehr zu vergeben schadet den Bürgern, ständiges Nachfragen ist umständlich, und öffentliche Kritik stellt ihn bloß.",
@@ -4483,10 +4483,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du setzt die Entscheidung um, äußerst aber bei jeder Gelegenheit deinen Unmut darüber.",
-          "Du nimmst weiterhin Papieranträge an, weil du die Entscheidung für falsch hältst.",
-          "Du wendest dich direkt an den Abteilungsleiter, damit er die Entscheidung rückgängig macht.",
-          "Du trägst die Entscheidung mit und schlägst vor, die Erfahrungen nach einigen Wochen auszuwerten."
+          "Du setzt die Entscheidung um, äußerst aber bei jeder passenden Gelegenheit deine Bedenken, damit sie nicht vergessen werden.",
+          "Du nimmst weiterhin Papieranträge an, weil du die Entscheidung für falsch hältst und ältere Bürger nicht benachteiligen willst.",
+          "Du wendest dich direkt an den Abteilungsleiter, weil er die Entscheidung im Interesse der Bürger noch ändern kann.",
+          "Du trägst die Entscheidung mit und schlägst vor, die Erfahrungen nach einigen Wochen gemeinsam im Team auszuwerten."
         ],
         "answer": 3,
         "explanation": "Gemeinsame Entscheidungen werden loyal umgesetzt, Bedenken lassen sich sachlich über eine Auswertung einbringen. Unterlaufen, Dauerkritik oder Umgehen des Teams schaden der Zusammenarbeit.",
@@ -4496,10 +4496,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du sagst nichts, da das Archivsystem ohnehin irgendwann ersetzt werden soll.",
-          "Du wartest ab, bis die Vorgesetzte eine Nachfolgeregelung festlegt.",
-          "Du schlägst ihm und der Vorgesetzten vor, frühzeitig Übergabetermine zu planen und das Wissen schrittweise zu dokumentieren.",
-          "Du bittest ihn, kurz vor seinem Abschied alles Wichtige aufzuschreiben."
+          "Du sprichst das Thema nicht an, weil das Archivsystem ohnehin in absehbarer Zeit ersetzt werden soll.",
+          "Du wartest ab, bis die Vorgesetzte eine Nachfolgeregelung festlegt, da die Planung in ihrer Verantwortung liegt.",
+          "Du schlägst ihm und der Vorgesetzten frühzeitige Übergabetermine vor, um das Wissen schrittweise zu dokumentieren.",
+          "Du bittest ihn, kurz vor seinem Abschied alles Wichtige aufzuschreiben, damit er bis dahin ungestört arbeiten kann."
         ],
         "answer": 2,
         "explanation": "Eine frühzeitige, geplante Wissensübergabe sichert die Arbeitsfähigkeit des Teams. Abwarten oder Ignorieren gefährdet das Wissen, eine Last-minute-Notiz ist meist lückenhaft.",
@@ -4509,10 +4509,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du setzt Kopfhörer auf und sprichst das Problem nicht an.",
-          "Du sprichst ihn freundlich an und bittest ihn, private Gespräche leiser oder außerhalb zu führen.",
-          "Du bittest das ganze Team per Rundmail, auf die Lautstärke zu achten, ohne ihn zu nennen.",
-          "Du beschwerst dich bei der Vorgesetzten über sein störendes Verhalten."
+          "Du setzt Kopfhörer auf und sprichst nichts an, um das Verhältnis zu ihm nicht unnötig zu belasten.",
+          "Du sprichst ihn freundlich an und bittest ihn, private Gespräche leiser oder außerhalb des Büros zu führen.",
+          "Du bittest das Team per Rundmail, auf die Lautstärke zu achten, ohne ihn zu nennen, damit er nicht bloßgestellt wird.",
+          "Du beschwerst dich bei der Vorgesetzten, weil sie für die Regeln im Großraumbüro zuständig ist."
         ],
         "answer": 1,
         "explanation": "Eine direkte, freundliche Bitte ist der einfachste und respektvollste Weg. Eine anonyme Rundmail wirkt indirekt, Schweigen löst nichts, und die Vorgesetzte einzuschalten ist verfrüht.",
@@ -4522,10 +4522,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du stimmst mit dem Team und der Vorgesetzten ab, wer welche dringenden Vorgänge übernimmt.",
-          "Du übernimmst alle seine Vorgänge allein, ohne dies mit jemandem abzusprechen.",
-          "Du rufst den Kollegen zu Hause an und bittest ihn, die dringendsten Fälle von dort zu erledigen.",
-          "Du wartest ab, da die Vorgänge in seiner persönlichen Verantwortung liegen."
+          "Du stimmst mit dem Team und der Vorgesetzten ab, wer welche seiner dringenden Vorgänge vorübergehend übernimmt.",
+          "Du übernimmst alle seine Vorgänge allein und ohne Absprache, damit keine einzige Frist verpasst wird.",
+          "Du rufst den Kollegen zu Hause an und bittest ihn, die dringendsten Fälle nach Möglichkeit noch selbst zu erledigen.",
+          "Du wartest zunächst ab, weil die Vorgänge in seiner Verantwortung liegen und er vielleicht früher zurückkommt."
         ],
         "answer": 0,
         "explanation": "Eine abgestimmte Vertretung sichert die Fristen und verteilt die Last fair. Kranke Kollegen zu kontaktieren ist unangemessen, Abwarten gefährdet Fristen, ein Alleingang schafft Unklarheit.",
@@ -4535,10 +4535,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du bittest die Bürger, im Flur zu warten, bis das Team von selbst fertig ist.",
-          "Du forderst das Team mit Nachdruck auf, den Raum sofort zu verlassen.",
-          "Du gehst wortlos und beschwerst dich später schriftlich über die Raumnutzung.",
-          "Du sprichst das Team höflich an, verweist auf deine Buchung und findest mit ihm eine schnelle Lösung."
+          "Du bittest die Bürger, kurz im Flur zu warten, bis das Team fertig ist, um keine Unruhe zu verursachen.",
+          "Du forderst das Team mit Nachdruck auf, den Raum sofort zu verlassen, da deine Buchung eindeutig ist.",
+          "Du gehst wortlos mit den Bürgern weg und beschwerst dich später schriftlich über die Raumnutzung.",
+          "Du weist das Team höflich auf deine Buchung hin und findest gemeinsam mit ihm eine schnelle Lösung."
         ],
         "answer": 3,
         "explanation": "Höflich und direkt auf die Buchung hinzuweisen löst die Situation zügig und respektvoll. Warten lassen benachteiligt die Bürger, Druck verschärft die Lage, und eine spätere Beschwerde hilft jetzt nicht.",
@@ -4548,10 +4548,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du beantwortest die Anfrage sofort selbst, ohne den Kollegen darüber zu informieren.",
-          "Du leitest die Anfrage an die Vorgesetzte weiter und bittest sie, über die Zuständigkeit zu entscheiden.",
-          "Du sprichst den Kollegen direkt an, ihr klärt die Zuständigkeit und haltet sie für künftige Fälle fest.",
-          "Du gehst davon aus, dass sich der Kollege darum kümmert, da er die Mail ebenfalls erhalten hat."
+          "Du beantwortest die Anfrage sofort selbst, ohne den Kollegen zu informieren, damit die Frist auf jeden Fall gewahrt bleibt.",
+          "Du leitest die Anfrage an die Vorgesetzte weiter und bittest sie, verbindlich über die Zuständigkeit zu entscheiden.",
+          "Du sprichst den Kollegen direkt an, ihr klärt gemeinsam die Zuständigkeit und haltet sie für künftige Fälle schriftlich fest.",
+          "Du wartest ab, weil der Kollege die Mail ebenfalls erhalten hat und sich vermutlich schon darum kümmert."
         ],
         "answer": 2,
         "explanation": "Die direkte Absprache klärt die Frage schnell und verhindert Wiederholungen. Alleingang führt zu Doppelarbeit, die Vorgesetzte ist hier noch nicht nötig, und Abwarten gefährdet die Frist.",
@@ -4561,10 +4561,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du meldest seine Bitte sofort der Vorgesetzten als möglichen Regelverstoß.",
+          "Du meldest seine Bitte sofort der Vorgesetzten, weil jede versuchte Bevorzugung ein möglicher Regelverstoß ist.",
           "Du erklärst ihm freundlich, aber bestimmt, dass du aus Gründen der Gleichbehandlung die Reihenfolge einhältst.",
-          "Du sagst ihm zu, bearbeitest den Antrag dann aber doch einfach in normaler Reihenfolge.",
-          "Du ziehst den Antrag vor, weil es sich nur um eine kleine Gefälligkeit handelt."
+          "Du sagst ihm zu, um ihn nicht zu verärgern, bearbeitest den Antrag dann aber doch in normaler Reihenfolge.",
+          "Du ziehst den Antrag ausnahmsweise vor, weil es nur eine kleine Gefälligkeit unter Kollegen ist."
         ],
         "answer": 1,
         "explanation": "Eine klare, respektvolle Absage wahrt die Gleichbehandlung und das Verhältnis zum Kollegen. Nachgeben verletzt Regeln, sofortiges Melden ist überzogen, und eine falsche Zusage ist unehrlich.",
@@ -4575,9 +4575,9 @@ window.EAG_DATA = {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
           "Du bedankst dich für den Hinweis, fragst nach den betroffenen Fristen und vereinbarst einen festen Versandtermin.",
-          "Du entgegnest, dass ihre eigenen Unterlagen auch nicht immer pünktlich bei dir ankommen.",
-          "Du stimmst ihr freundlich zu, änderst aber nichts, weil du die Kritik übertrieben findest.",
-          "Du erklärst ihr, dass du gerade sehr viel zu tun hast und sie sich etwas gedulden muss."
+          "Du entgegnest, dass ihre eigenen Unterlagen auch nicht immer pünktlich bei dir ankommen, und bittest um Verständnis.",
+          "Du stimmst ihr freundlich zu, um die Situation zu entschärfen, änderst aber nichts, weil du die Kritik übertrieben findest.",
+          "Du erklärst ihr, dass du gerade sehr viel zu tun hast und sie sich deshalb noch etwas gedulden muss."
         ],
         "answer": 0,
         "explanation": "Kritik offen annehmen und eine konkrete Lösung vereinbaren zeigt Professionalität. Rechtfertigung, Gegenvorwurf oder Scheinzustimmung verhindern eine Verbesserung.",
@@ -4587,9 +4587,9 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du sagst erneut zu, um die gute Stimmung zwischen euch nicht zu gefährden.",
-          "Du meldest der Vorgesetzten, dass die Kollegin ihren Schalterdienst vernachlässigt.",
-          "Du lehnst ab und erklärst ihr, dass sie ihre Termine einfach besser planen soll.",
+          "Du sagst erneut zu, weil sie sicher gute Gründe hat und du die Stimmung zwischen euch nicht gefährden willst.",
+          "Du meldest der Vorgesetzten, dass die Kollegin ihren Schalterdienst häufig abgibt, damit sie den Plan anpasst.",
+          "Du lehnst diesmal ab und erklärst ihr, dass sie ihre privaten Termine künftig besser planen sollte.",
           "Du sagst offen, dass dich die häufigen Wechsel belasten, und suchst mit ihr eine verlässlichere Lösung."
         ],
         "answer": 3,
@@ -4600,10 +4600,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du nimmst an, kontrollierst danach aber jeden seiner Arbeitsschritte im Detail.",
-          "Du nimmst an und übergibst ihm alle restlichen Unterlagen ohne weitere Erklärung.",
-          "Du nimmst das Angebot an und vereinbarst klar, welche Teilaufgaben er übernimmt.",
-          "Du lehnst ab, weil du deine Aufgaben lieber allein erledigen möchtest."
+          "Du nimmst an, prüfst danach aber jeden seiner Arbeitsschritte genau, damit keine Fehler entstehen.",
+          "Du nimmst an und übergibst ihm alle restlichen Unterlagen, da er sich sicher selbst gut zurechtfindet.",
+          "Du nimmst das Angebot dankend an und vereinbarst klar, welche Teilaufgaben er bis wann übernimmt.",
+          "Du lehnst dankend ab, weil du deine Aufgaben selbst verantworten und niemanden zusätzlich belasten möchtest."
         ],
         "answer": 2,
         "explanation": "Hilfe anzunehmen und klar abzusprechen sorgt für effiziente Zusammenarbeit. Ablehnen gefährdet die Frist, unklare Übergabe führt zu Fehlern, und Detailkontrolle zeigt Misstrauen.",
@@ -4613,10 +4613,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du sagst ihm vor allen, dass er jetzt endlich einmal still sein soll.",
-          "Du dankst ihm für seinen Beitrag und bittest gezielt die anderen um ihre Einschätzung.",
-          "Du beendest die Besprechung vorzeitig und klärst die offenen Punkte später per Mail.",
-          "Du lässt ihn weiterreden, da er die meiste Erfahrung im Team hat."
+          "Du sagst ihm vor allen deutlich, dass er jetzt still sein soll, damit endlich auch andere drankommen.",
+          "Du dankst ihm für seinen Beitrag und bittest dann gezielt die anderen Teilnehmenden um ihre Einschätzung.",
+          "Du beendest die Besprechung vorzeitig und klärst die offenen Punkte per Mail, wo jeder gleich zu Wort kommt.",
+          "Du lässt ihn weiterreden, weil er die meiste Erfahrung hat und seine Beiträge für das Projekt wertvoll sind."
         ],
         "answer": 1,
         "explanation": "So wertschätzt du seinen Beitrag und sorgst trotzdem dafür, dass alle gehört werden. Laufenlassen, Bloßstellen oder Abbrechen werden der Moderationsrolle nicht gerecht.",
@@ -4626,10 +4626,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du bleibst sachlich, nimmst berechtigte Punkte auf und schlägst vor, Details danach zu zweit zu besprechen.",
-          "Du konterst sofort und zählst vor allen seine eigenen Fehler im Bericht auf.",
-          "Du schweigst und gehst ihm in den folgenden Tagen aus dem Weg.",
-          "Du verlässt verärgert den Raum, um eine Eskalation zu vermeiden."
+          "Du bleibst sachlich, nimmst berechtigte Punkte auf und schlägst vor, Details danach zu zweit zu klären.",
+          "Du konterst sofort und weist auf seine eigenen Fehler hin, damit die Kritik nicht einseitig stehen bleibt.",
+          "Du schweigst, um die Besprechung nicht zu stören, und gehst ihm in den folgenden Tagen aus dem Weg.",
+          "Du verlässt verärgert den Raum, um eine weitere Eskalation vor allen Anwesenden zu vermeiden."
         ],
         "answer": 0,
         "explanation": "Sachlich bleiben und das Gespräch unter vier Augen verlagern deeskaliert und ermöglicht eine Klärung. Gegenangriff, Rückzug oder Verlassen des Raums verschärfen den Konflikt.",
@@ -4639,10 +4639,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du teilst die Arbeit so auf, dass ihr möglichst nie miteinander sprechen müsst.",
-          "Du bittest die Vorgesetzte, dir für das Projekt einen anderen Partner zuzuteilen.",
-          "Du lässt ihn spüren, dass du lieber mit jemand anderem zusammenarbeiten würdest.",
-          "Du konzentrierst dich auf die Sache, legst mit ihm Aufgaben und Termine klar fest und bleibst respektvoll."
+          "Du teilst die Arbeit so auf, dass ihr kaum miteinander sprechen müsst, um Reibungen zu vermeiden.",
+          "Du bittest die Vorgesetzte um einen anderen Partner, weil das Projekt mit besserer Chemie erfolgreicher wäre.",
+          "Du zeigst ihm offen, dass du lieber mit jemand anderem arbeiten würdest, damit die Lage ehrlich geklärt ist.",
+          "Du konzentrierst dich auf die Sache, legst Aufgaben und Termine klar fest und bleibst respektvoll."
         ],
         "answer": 3,
         "explanation": "Professionelle Zusammenarbeit setzt keine Sympathie voraus, sondern klare Absprachen und Respekt. Ausweichen, Kontaktvermeidung oder spürbare Ablehnung gefährden das Projekt.",
@@ -4652,10 +4652,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du erledigst ihren Teil selbst, damit die Gruppe im Zeitplan bleibt.",
-          "Du informierst sofort die Projektleitung über die entstandene Verzögerung.",
-          "Du fragst sie direkt nach dem Stand, bietest Hilfe an und vereinbarst einen neuen festen Termin.",
-          "Du weist in der nächsten Sitzung vor allen darauf hin, dass ihr Beitrag fehlt."
+          "Du erledigst ihren Teil schnell selbst, damit die Gruppe im Zeitplan bleibt und kein Streit entsteht.",
+          "Du informierst sofort die Projektleitung über die Verzögerung, weil sie den Zeitplan verantworten muss.",
+          "Du fragst sie direkt nach dem Stand, bietest ihr Hilfe an und vereinbarst einen neuen festen Termin.",
+          "Du sprichst in der nächsten Sitzung vor allen an, dass ihr Beitrag fehlt, damit die Gruppe neu planen kann."
         ],
         "answer": 2,
         "explanation": "Direktes Nachfragen klärt die Ursache und schafft eine neue verbindliche Absprache. Übernehmen ohne Absprache, öffentliches Bloßstellen und sofortiges Eskalieren sind nicht angemessen.",
@@ -4665,10 +4665,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du lässt die Zahlung liegen, bis sie sich irgendwann von selbst meldet.",
-          "Du versuchst sie über die vereinbarten Kanäle zu erreichen und wendest dich danach an ihre Vertretung.",
-          "Du schreibst in den Teamkanal, dass sie im Homeoffice offenbar nicht arbeitet.",
-          "Du gibst die Zahlung selbst frei, obwohl du dazu nicht berechtigt bist."
+          "Du lässt die Zahlung liegen, bis sie sich meldet, weil die Freigabe ausschließlich ihre Aufgabe ist.",
+          "Du versuchst sie über die vereinbarten Kanäle zu erreichen und wendest dich dann an ihre Vertretung.",
+          "Du schreibst in den Teamkanal, dass sie nicht erreichbar ist, und fragst, ob sie heute überhaupt arbeitet.",
+          "Du gibst die Zahlung selbst frei, obwohl du nicht berechtigt bist, damit die Frist nicht verstreicht."
         ],
         "answer": 1,
         "explanation": "Du nutzt die vorgesehenen Wege und die Vertretungsregelung, ohne Befugnisse zu überschreiten. Eigenmächtiges Freigeben ist unzulässig, öffentliche Unterstellungen verletzen, und Liegenlassen gefährdet die Frist.",
@@ -4678,10 +4678,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du prüfst die geltende Dienstanweisung und klärst Widersprüche bei Bedarf gemeinsam mit beiden.",
-          "Du wählst jeweils das Verfahren, das dir im Einzelfall schneller erscheint.",
-          "Du folgst der Anweisung des Kollegen, der schon länger im Dienst ist.",
-          "Du sagst beiden, dass sie sich zuerst untereinander einig werden sollen."
+          "Du prüfst die geltende Dienstanweisung und klärst die Widersprüche bei Bedarf gemeinsam mit beiden Kollegen.",
+          "Du wählst jeweils das Verfahren, das dir im Einzelfall praktischer erscheint, da beide offenbar funktionieren.",
+          "Du folgst der Anweisung des Kollegen, der länger im Dienst ist, weil er die Abläufe am besten kennt.",
+          "Du bittest beide, sich zuerst untereinander zu einigen, bevor du die erste Bescheinigung ausstellst."
         ],
         "answer": 0,
         "explanation": "Die verbindliche Regelung ist maßgeblich, und eine gemeinsame Klärung hilft dem ganzen Team. Dienstalter oder Bequemlichkeit sind keine Kriterien, und den Konflikt abzuschieben ist unkooperativ.",
@@ -4691,10 +4691,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du bleibst ab sofort jeden Mittag allein im Büro, damit das Telefon besetzt ist.",
-          "Du sagst der Vorgesetzten, dass deine Kollegen ihre Pflichten vernachlässigen.",
-          "Du leitest das Telefon während der Mittagszeit einfach auf die Mailbox um.",
-          "Du schlägst dem Team einen abwechselnden Pausenplan vor, damit immer jemand erreichbar ist."
+          "Du bleibst ab sofort jeden Mittag allein im Büro, damit das Telefon besetzt ist, und machst später Pause.",
+          "Du sagst der Vorgesetzten, dass deine Kollegen mittags ihre Pflichten vernachlässigen, damit sie einschreitet.",
+          "Du leitest das Telefon mittags auf die Mailbox um, damit Bürger wenigstens eine Nachricht hinterlassen können.",
+          "Du schlägst dem Team einen abwechselnden Pausenplan vor, damit mittags immer jemand für Bürger erreichbar ist."
         ],
         "answer": 3,
         "explanation": "Ein gemeinsamer Pausenplan löst das Problem fair und dauerhaft. Allein einzuspringen ist nicht tragbar, Beschuldigen ist unkollegial, und die Mailbox verschlechtert den Bürgerservice.",
@@ -4704,10 +4704,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du beklagst dich im Team darüber, dass sich wieder einmal niemand um die Einarbeitung gekümmert hat.",
-          "Du gibst ihr die Dienstanweisungen zum Lesen und arbeitest selbst an deinen eigenen Vorgängen weiter.",
-          "Du begrüßt die Kollegin, zeigst ihr die wichtigsten Abläufe und informierst die Vorgesetzte kurz per Mail.",
-          "Du lässt die Einarbeitung ruhen, bis die Vorgesetzte zurück ist, damit alles nach ihren Vorgaben läuft."
+          "Du sprichst im Team offen an, dass die Einarbeitung wieder nicht geplant wurde, damit so etwas künftig nicht mehr passiert.",
+          "Du gibst ihr die Dienstanweisungen zum Lesen, damit sie sich selbst einarbeitet, und arbeitest an deinen Vorgängen weiter.",
+          "Du begrüßt die Kollegin, zeigst ihr die wichtigsten Abläufe und informierst die Vorgesetzte kurz per Mail über den Stand.",
+          "Du lässt die Einarbeitung ruhen, bis die Vorgesetzte zurück ist, damit später alles nach ihren Vorgaben abläuft."
         ],
         "answer": 2,
         "explanation": "Du übernimmst Verantwortung, hilfst der neuen Kollegin konkret und hältst die Vorgesetzte informiert. Abwarten oder sie nur lesen zu lassen lässt sie allein, Klagen im Team löst nichts.",
@@ -4717,10 +4717,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du erstellst die fehlenden Zahlen selbst auf Grundlage eigener Schätzungen.",
-          "Du kontaktierst die zuständige Ansprechperson, klärst die Gründe und vereinbarst realistische Liefertermine.",
-          "Du beschwerst dich sofort bei der Leitung der Partnerabteilung über die Verzögerungen.",
-          "Du verschiebst den Zeitplan stillschweigend und sprichst das Problem nicht an."
+          "Du erstellst die fehlenden Zahlen selbst auf Grundlage eigener Schätzungen, damit das Projekt im Zeitplan bleibt.",
+          "Du kontaktierst die zuständige Ansprechperson, klärst die Gründe und vereinbarst mit ihr realistische Liefertermine.",
+          "Du beschwerst dich bei der Leitung der Partnerabteilung, weil nur sie für verbindliche Liefertermine sorgen kann.",
+          "Du verschiebst den Zeitplan stillschweigend nach hinten, um die gute Beziehung zur Gemeinde nicht zu belasten."
         ],
         "answer": 1,
         "explanation": "Der direkte Kontakt auf Arbeitsebene klärt Ursachen und schafft verbindliche Absprachen. Schweigen löst nichts, Schätzungen gefährden die Qualität, und sofortiges Eskalieren belastet die Kooperation.",
@@ -4743,10 +4743,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du bittest sofort deinen Abteilungsleiter, sich im anderen Ministerium zu beschweren.",
-          "Du schreibst eine dritte Mail mit dem Betreff „DRINGEND\" in Großbuchstaben.",
-          "Du schließt das Dossier ohne seine Stellungnahme ab, um weiterzukommen.",
-          "Du rufst ihn an, fragst freundlich nach dem Stand und vereinbarst einen konkreten Termin."
+          "Du bittest deinen Abteilungsleiter, sich im anderen Ministerium zu beschweren, da dort niemand antwortet.",
+          "Du schreibst eine dritte Mail mit dem Betreff „DRINGEND“ in Großbuchstaben, damit die Wichtigkeit deutlich wird.",
+          "Du schließt das Dossier ohne seine Stellungnahme ab, um die eigene Frist nicht zu gefährden.",
+          "Du rufst ihn an, fragst freundlich nach dem Stand und vereinbarst mit ihm einen konkreten Liefertermin."
         ],
         "answer": 3,
         "explanation": "Ein persönlicher Anruf ist der nächste sinnvolle direkte Schritt und schafft Verbindlichkeit. Drängende Mails wirken unhöflich, Abschließen ohne Stellungnahme ist unvollständig, und Eskalation ist verfrüht.",
@@ -4756,10 +4756,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du unterbrichst ihn und stellst vor allen klar, dass der Vorschlag eigentlich von dir stammt.",
-          "Du meldest den Vorfall gleich nach der Sitzung deiner Vorgesetzten, damit sie Bescheid weiß.",
-          "Du sprichst ihn nach der Sitzung unter vier Augen an und bittest, gemeinsame Ideen künftig so zu kennzeichnen.",
-          "Du erzählst anderen Kolleginnen, dass er sich gern mit fremden Federn schmückt."
+          "Du unterbrichst ihn höflich und stellst vor allen klar, dass der Vorschlag ursprünglich von dir stammt, damit kein falscher Eindruck entsteht.",
+          "Du meldest den Vorfall gleich nach der Sitzung deiner Vorgesetzten, damit sie weiß, von wem die Idee tatsächlich kommt.",
+          "Du sprichst ihn nach der Sitzung unter vier Augen an und bittest ihn, gemeinsam entwickelte Ideen künftig auch so zu kennzeichnen.",
+          "Du erzählst einigen Kolleginnen, was passiert ist, damit sie künftig vorsichtig sind, wem sie ihre Ideen anvertrauen."
         ],
         "answer": 2,
         "explanation": "Ein ruhiges Gespräch unter vier Augen klärt die Sache direkt und respektvoll. Öffentliches Bloßstellen, Lästern oder sofortiges Eskalieren belasten die Zusammenarbeit unnötig.",
@@ -4769,10 +4769,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du arbeitest an beiden parallel und hängst ohne Rücksprache Überstunden an.",
-          "Du schilderst deiner Vorgesetzten den Konflikt und bittest sie, die Priorität mit dem Abteilungsleiter zu klären.",
-          "Du erledigst zuerst die Aufgabe des Abteilungsleiters, da er in der Hierarchie höher steht.",
-          "Du beginnst mit der einfacheren Aufgabe, damit wenigstens eine rechtzeitig fertig wird."
+          "Du arbeitest an beiden Aufgaben parallel und hängst ohne Rücksprache Überstunden an, um niemanden zu enttäuschen.",
+          "Du schilderst deiner direkten Vorgesetzten den Konflikt und bittest sie, die Priorität mit dem Abteilungsleiter abzustimmen.",
+          "Du erledigst zuerst die Aufgabe des Abteilungsleiters, weil er in der Hierarchie höher steht und seine Aufträge Vorrang haben.",
+          "Du beginnst mit der einfacheren Aufgabe, damit wenigstens eine rechtzeitig fertig wird, und meldest dich danach bei beiden."
         ],
         "answer": 1,
         "explanation": "Widersprüchliche Aufträge müssen transparent gemacht und die Priorität geklärt werden. Eigenmächtiges Priorisieren oder Überstunden ohne Absprache lösen den Konflikt nicht.",
@@ -4782,10 +4782,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du lehnst ab, erklärst die Sicherheitsregeln und hilfst ihm, die Freischaltung bei der IT zu beschleunigen.",
-          "Du meldest dich selbst an und lässt ihn kurz an deinem Rechner arbeiten.",
-          "Du gibst ihm das Passwort, da er es nur für kurze Zeit braucht.",
-          "Du meldest seine Anfrage sofort als Sicherheitsvorfall bei der IT."
+          "Du lehnst ab, erklärst die Sicherheitsregeln und hilfst ihm, die Freischaltung zu beschleunigen.",
+          "Du meldest dich selbst an und lässt ihn kurz an deinem Rechner arbeiten, ohne das Passwort preiszugeben.",
+          "Du gibst ihm das Passwort, weil er es nur kurz braucht und du ihm als Kollegen vertraust.",
+          "Du meldest seine Anfrage sofort der IT-Sicherheit, weil solche Bitten grundsätzlich gemeldet werden sollten."
         ],
         "answer": 0,
         "explanation": "Zugangsdaten sind persönlich; eine freundliche Absage mit Hilfe zur Lösung ist richtig. Passwort weitergeben oder ihn unter deinem Konto arbeiten lassen verstößt gegen Regeln, eine sofortige Meldung ist überzogen.",
@@ -4795,9 +4795,9 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du meldest der Vorgesetzten, dass sie die Nutzung des Programms verweigert.",
-          "Du machst im Team scherzhafte Bemerkungen über ihre Papierlisten.",
-          "Du überträgst ihre Listen heimlich selbst ins System, damit alles vollständig ist.",
+          "Du meldest der Vorgesetzten, dass sie das Programm nicht nutzt, weil die Umstellung verpflichtend ist.",
+          "Du machst im Team scherzhafte Bemerkungen über Papierlisten, um sie auf lockere Weise zum Umstieg zu bewegen.",
+          "Du überträgst ihre Listen unauffällig selbst ins System, damit die Informationen für das Team vollständig sind.",
           "Du fragst sie, was ihr am Programm schwerfällt, und bietest an, ihr die wichtigsten Funktionen zu zeigen."
         ],
         "answer": 3,
@@ -4808,10 +4808,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du verzichtest auf deinen Urlaub, ärgerst dich aber im Stillen darüber.",
-          "Du überlässt die Entscheidung der Vorgesetzten, ohne vorher mit der Kollegin zu reden.",
-          "Du sprichst mit ihr, ihr legt eure Gründe offen und sucht gemeinsam einen Kompromiss.",
-          "Du reichst deinen Urlaubsantrag schnell als Erste ein, damit du Vorrang hast."
+          "Du verzichtest auf deinen Urlaub, um Streit zu vermeiden, ärgerst dich aber im Stillen darüber.",
+          "Du überlässt die Entscheidung der Vorgesetzten, damit sie neutral entscheidet, ohne vorher mit der Kollegin zu reden.",
+          "Du sprichst mit der Kollegin, ihr legt eure Gründe offen und sucht gemeinsam nach einem fairen Kompromiss.",
+          "Du reichst deinen Antrag schnell als Erste ein, weil bei Urlaubsanträgen meist die Reihenfolge entscheidet."
         ],
         "answer": 2,
         "explanation": "Ein offenes Gespräch ermöglicht eine faire Lösung, mit der beide leben können. Vorpreschen ist unkollegial, die Vorgesetzte ist erst nötig, wenn keine Einigung gelingt, und stiller Verzicht erzeugt Groll.",
@@ -4821,10 +4821,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du leitest die Mail an deine Kollegen weiter, damit sie sehen, wie er schreibt.",
-          "Du antwortest sachlich, erklärst den aktuellen Stand und nennst einen verbindlichen Termin.",
-          "Du antwortest im gleichen Ton und setzt deinerseits deine eigene Vorgesetzte in Kopie.",
-          "Du ignorierst die Mail, da sie in einem unangemessenen Ton formuliert ist."
+          "Du leitest die Mail an deine Kollegen weiter, damit sie wissen, wie diese Abteilung mit eurem Team kommuniziert.",
+          "Du antwortest sachlich und höflich, erklärst den aktuellen Stand und nennst einen verbindlichen Termin für die Stellungnahme.",
+          "Du antwortest im gleichen bestimmten Ton und setzt deine Vorgesetzte in Kopie, damit beide Seiten informiert sind.",
+          "Du ignorierst die Mail vorerst, weil sie unangemessen formuliert ist und eine Antwort den Ton nur bestätigen würde."
         ],
         "answer": 1,
         "explanation": "Eine sachliche Antwort mit klarem Termin entschärft die Lage und dient der Sache. Gegenangriff, Ignorieren oder Weiterleiten zur Bloßstellung verschärfen den Konflikt.",
@@ -4834,10 +4834,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du sprichst die Verteilung bei der zuständigen Person sachlich an und legst deine Fallzahlen dar.",
-          "Du bearbeitest alles stillschweigend, auch wenn du dafür regelmäßig länger bleiben musst.",
-          "Du machst in der Kaffeeküche deinem Ärger über die ungerechte Verteilung Luft.",
-          "Du gibst einen Teil der Dossiers einfach an eine Kollegin weiter, die weniger Fälle hat."
+          "Du sprichst die Verteilung bei der zuständigen Person sachlich an und legst deine aktuellen Fallzahlen offen dar.",
+          "Du bearbeitest alles stillschweigend, weil sich die Verteilung beim nächsten Mal sicher wieder ausgleichen wird.",
+          "Du erwähnst bei Kolleginnen in der Pause, dass die Verteilung ungerecht ist, um zu sehen, ob es ihnen auch auffällt.",
+          "Du gibst einen Teil der Dossiers an eine Kollegin weiter, die weniger Fälle hat, damit die Last gerecht verteilt ist."
         ],
         "answer": 0,
         "explanation": "Sachlich und mit Fakten bei der verantwortlichen Person anzusetzen ermöglicht eine faire Lösung. Schweigen führt zu Überlastung, eigenmächtiges Weitergeben und Lästern sind unkollegial.",
@@ -4847,9 +4847,9 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du übernimmst vorerst ihre schwierigeren Fälle, ohne sie vorher zu fragen.",
-          "Du sagst ihr, dass sich vieles geändert hat und sie sich nun schnell umstellen muss.",
-          "Du gehst davon aus, dass sie sich die Neuerungen selbst im Intranet erarbeitet.",
+          "Du übernimmst vorerst ihre schwierigeren Fälle, ohne sie zu fragen, damit sie in Ruhe ankommen kann.",
+          "Du sagst ihr gleich zu Beginn, dass sich vieles geändert hat und sie sich nun schnell umstellen muss.",
+          "Du gehst davon aus, dass sie sich die Neuerungen im Intranet erarbeitet, wo alle Änderungen dokumentiert sind.",
           "Du bietest ihr an, die wichtigsten Änderungen gemeinsam durchzugehen, und stehst für Fragen bereit."
         ],
         "answer": 3,
@@ -4873,10 +4873,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du stellst die alte Ordnerstruktur eigenmächtig wieder her.",
-          "Du sprichst ihn an, lässt dir die neue Struktur erklären und regst an, Änderungen künftig im Team abzustimmen.",
-          "Du beschwerst dich in einer Rundmail über die eigenmächtige Änderung.",
-          "Du legst dir eine eigene Kopie aller Dokumente auf deinem Rechner an."
+          "Du stellst die alte Ordnerstruktur wieder her, weil sie allen vertraut war und gut funktioniert hat.",
+          "Du lässt dir von ihm die neue Struktur erklären und regst an, Änderungen künftig im Team abzustimmen.",
+          "Du schreibst eine Rundmail, dass Änderungen nicht ohne Absprache erfolgen dürfen, und nennst den Anlass.",
+          "Du legst dir eine eigene Kopie aller wichtigen Dokumente an, damit du sie künftig sicher wiederfindest."
         ],
         "answer": 1,
         "explanation": "Das direkte Gespräch löst dein Problem und verbessert künftige Absprachen. Rückgängigmachen wiederholt den Fehler, private Kopien schaffen Datenchaos, und eine Rundmail stellt ihn bloß.",
@@ -4886,10 +4886,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du schlägst feste Zeiten für Fragen vor und hilfst ihm, eine Checkliste für wiederkehrende Abläufe anzulegen.",
-          "Du beantwortest jede Frage sofort, auch wenn deine eigene Arbeit liegen bleibt.",
-          "Du sagst ihm, er solle sich mit seinen Fragen an die Vorgesetzte wenden.",
-          "Du antwortest nur noch sehr knapp, damit er merkt, dass er dich stört."
+          "Du schlägst feste Fragezeiten vor und hilfst ihm, eine Checkliste für wiederkehrende Abläufe anzulegen.",
+          "Du beantwortest jede Frage sofort, weil er neu ist, auch wenn deine eigene Arbeit dabei liegen bleibt.",
+          "Du sagst ihm, er solle sich mit Fragen an die Vorgesetzte wenden, da sie für seine Einarbeitung zuständig ist.",
+          "Du antwortest nur noch sehr knapp, damit er merkt, dass er selbstständiger arbeiten sollte."
         ],
         "answer": 0,
         "explanation": "So unterstützt du ihn weiterhin und schützt zugleich deine Arbeitszeit; die Checkliste macht ihn selbstständiger. Knappe Antworten und Abschieben sind unkollegial, ständige Verfügbarkeit ist nicht tragbar.",
@@ -4899,10 +4899,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du bittest die Vorgesetzte, ihn zur Weitergabe der Informationen zu verpflichten.",
-          "Du schreibst in einer Teammail, dass er wichtige Informationen zurückhält.",
-          "Du holst dir Informationen ab jetzt nur noch bei anderen Kolleginnen.",
-          "Du sprichst ihn an, schilderst die Folgen und schlägst einen kurzen regelmäßigen Austausch vor."
+          "Du bittest die Vorgesetzte, ihn zur Weitergabe zu verpflichten, weil falsche Auskünfte an Bürger ernst sind.",
+          "Du schreibst in einer Teammail, dass Ergebnisse aus Arbeitsgruppen nicht ankommen, und nennst ihn als Beispiel.",
+          "Du holst dir Informationen ab jetzt bei anderen Kolleginnen, weil das schneller geht, als bei ihm nachzufragen.",
+          "Du sprichst ihn direkt an, schilderst die Folgen für die Bürger und schlägst einen kurzen regelmäßigen Austausch vor."
         ],
         "answer": 3,
         "explanation": "Das direkte Gespräch mit einem konkreten Vorschlag löst das Problem an der Quelle. Umgehen hilft nicht dauerhaft, die Teammail stellt ihn bloß, und die Vorgesetzte ist noch nicht nötig.",
@@ -4912,10 +4912,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du sagst ihm, das Schreiben sei gut, um ihn nicht unnötig zu verunsichern.",
-          "Du schreibst den Brief selbst komplett neu und schickst ihm deine Fassung zurück.",
-          "Du nennst gelungene Punkte und zeigst ihm konkrete Stellen, die verständlicher sein könnten.",
-          "Du sagst ihm offen, dass das Schreiben für Bürger so völlig unbrauchbar ist."
+          "Du sagst ihm, das Schreiben sei gut, weil er unter Zeitdruck steht und du ihn nicht unnötig verunsichern möchtest.",
+          "Du schreibst den Brief selbst komplett neu und schickst ihm deine Fassung, damit er direkt eine bessere Vorlage hat.",
+          "Du nennst zuerst gelungene Punkte und zeigst ihm dann konkrete Stellen, die man verständlicher formulieren könnte.",
+          "Du sagst ihm offen, dass das Schreiben für Bürger so unbrauchbar ist, weil ehrliche Kritik am schnellsten wirkt."
         ],
         "answer": 2,
         "explanation": "Konstruktives Feedback ist ehrlich, konkret und wertschätzend. Schönfärben hilft nicht, Umschreiben übergeht ihn, und pauschale Abwertung verletzt.",
@@ -4925,10 +4925,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du stimmst ihr zu, um euer gutes Verhältnis nicht zu belasten.",
-          "Du hörst kurz zu und ermutigst sie, das Problem direkt mit dem Kollegen zu besprechen.",
-          "Du sagst ihr deutlich, dass dich ihre Probleme nicht interessieren.",
-          "Du erzählst dem Kollegen, was sie über ihn gesagt hat."
+          "Du stimmst ihr zu, um sie zu beruhigen und euer gutes Verhältnis nicht zu belasten.",
+          "Du hörst kurz zu und ermutigst sie, das Problem direkt und sachlich mit dem Kollegen zu klären.",
+          "Du sagst ihr schroff, dass du dich aus ihren Problemen heraushältst und nichts mehr hören willst.",
+          "Du erzählst dem Kollegen, was sie über ihn sagt, damit er die Gelegenheit hat, etwas zu ändern."
         ],
         "answer": 1,
         "explanation": "Du bleibst neutral und förderst eine direkte Klärung zwischen den Beteiligten. Zustimmen heizt den Konflikt an, Weitertragen ist illoyal, und schroffe Abweisung verletzt.",
@@ -4938,10 +4938,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du weist darauf hin, dass die Prüfung vorgeschrieben ist, und schlägst vor, mit der Vorgesetzten über Fristverlängerung oder Unterstützung zu sprechen.",
-          "Du führst die Prüfung heimlich allein durch, ohne ihn darüber zu informieren.",
-          "Du überlässt ihm die Entscheidung, da es sich um seinen Vorgang handelt.",
-          "Du stimmst zu, weil die Frist sonst nicht mehr einzuhalten ist."
+          "Du weist darauf hin, dass die Prüfung Pflicht ist, und schlägst vor, mit der Vorgesetzten eine Lösung zu suchen.",
+          "Du führst die Prüfung heimlich allein durch, damit die Vorgaben eingehalten werden, ohne ihn zu informieren.",
+          "Du überlässt ihm die Entscheidung, da es sich um seinen Vorgang handelt und er die Verantwortung trägt.",
+          "Du stimmst zu, weil die Frist sonst nicht einzuhalten ist und die Angebote ohnehin ähnlich aussehen."
         ],
         "answer": 0,
         "explanation": "Rechtliche Vorgaben sind einzuhalten; bei Zeitdruck ist die Vorgesetzte die richtige Ansprechpartnerin. Zustimmen oder Wegschauen verletzt Regeln, und heimliches Handeln übergeht den Kollegen.",
@@ -4951,10 +4951,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du erklärst dem Bürger, dass dein Kollege die Übergabe versäumt hat und du nichts tun kannst.",
-          "Du vertröstest den Bürger auf unbestimmte Zeit, bis du die Akte in Ruhe durchgesehen hast.",
-          "Du schreibst zuerst eine Beschwerde an die Vorgesetzte über die fehlende Übergabe.",
-          "Du nimmst das Anliegen auf, sagst einen Rückruf zu und klärst die Details kurzfristig mit dem Kollegen."
+          "Du erklärst dem Bürger ehrlich, dass dein Kollege die Übergabe versäumt hat und du deshalb leider noch nichts dazu sagen kannst.",
+          "Du bittest den Bürger, sich in einigen Wochen erneut zu melden, damit du die Akte vorher gründlich durcharbeiten kannst.",
+          "Du schreibst zuerst der Vorgesetzten, dass die Übergabe gefehlt hat, damit sie über das Versäumnis Bescheid weiß.",
+          "Du nimmst das Anliegen des Bürgers auf, sagst einen Rückruf zu und klärst die Details kurzfristig mit dem Kollegen."
         ],
         "answer": 3,
         "explanation": "Der Bürger erhält eine verbindliche Rückmeldung, und du holst die Information direkt beim Kollegen ein. Schuldzuweisungen, unbestimmtes Vertrösten oder eine Beschwerde helfen niemandem weiter.",
@@ -4964,10 +4964,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du findest, dass sich Kolleginnen im Homeoffice selbst um ihre Informationen kümmern müssen.",
-          "Du regst an, dass künftig wieder alle Teammitglieder täglich ins Büro kommen.",
-          "Du schlägst vor, Entscheidungen kurz im gemeinsamen Kanal festzuhalten und Termine hybrid anzusetzen.",
-          "Du rufst nach jeder spontanen Absprache alle Abwesenden einzeln an."
+          "Du findest, dass sich Kolleginnen im Homeoffice selbst informieren müssen, weil sie diese Arbeitsform gewählt haben.",
+          "Du regst an, dass wieder alle täglich ins Büro kommen, weil Absprachen vor Ort am besten funktionieren.",
+          "Du schlägst vor, Entscheidungen kurz im gemeinsamen Teamkanal festzuhalten und Termine hybrid anzusetzen.",
+          "Du rufst nach jeder spontanen Absprache alle Abwesenden einzeln an, damit niemand etwas verpasst."
         ],
         "answer": 2,
         "explanation": "Eine einfache, gemeinsame Regel stellt sicher, dass alle informiert sind. Die anderen Optionen sind entweder ausgrenzend, nicht dauerhaft machbar oder ignorieren die vereinbarte Arbeitsform.",
@@ -4977,10 +4977,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du schickst ihr kommentarlos die richtige Version und hoffst, dass es nicht auffällt.",
-          "Du informierst sie sofort, entschuldigst dich und hilfst ihr, den Bericht zu korrigieren.",
-          "Du wartest ab, ob jemand den Fehler bemerkt, bevor du etwas unternimmst.",
-          "Du erklärst ihr, dass sie die Aktualität der Tabelle selbst hätte prüfen müssen."
+          "Du schickst ihr kommentarlos die richtige Version, damit sie den Bericht noch rechtzeitig selbst anpassen kann.",
+          "Du informierst sie sofort, entschuldigst dich für das Versehen und hilfst ihr, den Bericht zu korrigieren.",
+          "Du wartest zunächst ab, ob jemand den Fehler bemerkt, weil die Abweichungen vielleicht gar nicht relevant sind.",
+          "Du weist sie darauf hin, dass die Tabelle veraltet war und sie die Aktualität künftig selbst prüfen sollte."
         ],
         "answer": 1,
         "explanation": "Eigene Fehler offen zugeben und bei der Behebung helfen schafft Vertrauen und verhindert Schaden. Verschleiern, Abwarten oder Schuld abschieben sind unprofessionell.",
@@ -4990,10 +4990,10 @@ window.EAG_DATA = {
       {
         "prompt": "Welche Reaktion ist am angemessensten?",
         "options": [
-          "Du beteiligst dich nicht und sagst ihm, dass ihr nicht über Unbestätigtes reden solltet.",
-          "Du gibst das Gerücht vorsichtig an eine Kollegin weiter, der du vertraust.",
-          "Du hörst interessiert zu, ohne selbst etwas dazu zu sagen.",
-          "Du fragst die betroffene Kollegin direkt, ob an der Versetzung etwas dran ist."
+          "Du sagst ihm, dass ihr nicht über Unbestätigtes reden solltet, und beteiligst dich nicht an dem Gerücht.",
+          "Du gibst das Gerücht vorsichtig an eine vertraute Kollegin weiter, damit sie die Betroffene eventuell vorwarnen kann.",
+          "Du hörst interessiert zu, sagst aber selbst nichts dazu, um dich nicht in die Sache hineinziehen zu lassen.",
+          "Du fragst die betroffene Kollegin direkt, ob an der Versetzung etwas dran ist, um Klarheit zu schaffen."
         ],
         "answer": 0,
         "explanation": "Gerüchte zu stoppen schützt die Betroffene und das Teamklima. Weitererzählen verbreitet es, Nachfragen bei ihr kann sie verletzen, und interessiertes Zuhören ermutigt den Klatsch.",
