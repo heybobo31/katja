@@ -2,6 +2,8 @@ const key = document.body.dataset.module;
 const sourceMod = window.EAG_DATA && window.EAG_DATA[key];
 if(!sourceMod){ document.querySelector('main').innerHTML='<div class="card"><h1>Fehler beim Laden</h1><p>Die Aufgabendaten konnten nicht geladen werden. Bitte die Seite neu laden.</p></div>'; throw new Error('Missing module '+key); }
 const STORAGE_KEY=`eag_c1_seen_${key}`;
+// Bei neuem Aufgabenbestand den alten Fortschritt zurücksetzen (Indizes passen sonst nicht mehr)
+try{const v=String(window.EAG_DATA_VERSION||1),vk=`eag_c1_data_version_${key}`;if(localStorage.getItem(vk)!==v){localStorage.removeItem(STORAGE_KEY);localStorage.setItem(vk,v);}}catch(e){}
 function getSeen(){try{return new Set(JSON.parse(localStorage.getItem(STORAGE_KEY)||'[]'));}catch(e){return new Set();}}
 function saveSeen(s){try{localStorage.setItem(STORAGE_KEY,JSON.stringify([...s]));}catch(e){}}
 function shuffle(arr){const a=[...arr];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
