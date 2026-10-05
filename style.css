@@ -28,7 +28,7 @@ button:disabled{opacity:.5;cursor:not-allowed}
 .question{margin-top:18px}.qtext{font-size:1.08rem;font-weight:700;margin-bottom:14px}
 .context{background:#f8fafc;border-left:4px solid #aab8d5;padding:14px 16px;border-radius:8px;margin:12px 0;white-space:pre-wrap}
 .options{display:grid;gap:10px}
-.option{width:100%;text-align:left;background:#fff;border:1px solid var(--border);padding:12px 14px;border-radius:10px;color:var(--text)}
+.option{width:100%;text-align:left;justify-content:flex-start;background:#fff;border:1px solid var(--border);padding:12px 14px;border-radius:10px;color:var(--text)}
 .option:hover{border-color:#91a3cc;background:#fafbff}
 .option.selected{border-color:var(--accent);background:#eef3ff}
 .option.correct{border-color:var(--good);background:#ebf8f1}
