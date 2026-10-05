@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EAG C1 – Tipps & Tricks für Katja</title>
+<style>
+:root{
+  --bg:#f5f7fb; --panel:#ffffff; --text:#172033; --muted:#667085; --line:#dbe1ea;
+  --accent:#2f5bea; --accent2:#eef3ff; --good:#137a4b; --warn:#9a6700; --bad:#b63a3a;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.55}
+header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
+.top{max-width:1100px;margin:auto;padding:14px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:850}.brand small{color:var(--muted);font-weight:500}
+nav{display:flex;gap:8px;flex-wrap:wrap}
+nav a{text-decoration:none;color:var(--text);background:#eef1f6;padding:7px 10px;border-radius:999px;font-size:.86rem}
+main{max-width:1100px;margin:28px auto;padding:0 20px 70px}
+.hero,.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 6px 22px rgba(23,32,51,.04)}
+.hero h1{margin:0 0 8px;font-size:clamp(1.8rem,3.4vw,2.6rem)}
+.muted{color:var(--muted)}
+.notice{margin-top:14px;background:#fff8e6;border:1px solid #ead69a;color:#6c4d0c;padding:14px;border-radius:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:18px}
+.card h2{margin-top:0}
+.badge{display:inline-block;background:var(--accent2);color:#2447ad;padding:4px 9px;border-radius:999px;font-size:.78rem;font-weight:800;margin-bottom:8px}
+.tip{background:#f8fafc;border-left:4px solid #9db0dc;padding:12px 14px;border-radius:8px;margin:10px 0}
+.good{border-left-color:#62b78f}.warn{border-left-color:#d3a64f}.bad{border-left-color:#d67b7b}
+.rule{font-weight:800;color:#2447ad}
+ul{padding-left:20px}
+li{margin:6px 0}
+.checklist{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.check{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px}
+.kbd{display:inline-block;border:1px solid #cbd3df;background:#fff;border-bottom-width:2px;padding:1px 6px;border-radius:6px;font-family:ui-monospace,monospace;font-size:.9em}
+table{width:100%;border-collapse:collapse;margin-top:10px}
+th,td{border:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}
+th{background:#f1f4f8}
+details{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:#fff;margin:10px 0}
+summary{cursor:pointer;font-weight:800}
+footer{max-width:1100px;margin:0 auto;padding:0 20px 50px;color:var(--muted);font-size:.9rem}
+@media(max-width:700px){nav{display:none}}
+</style>
+</head>
+<body>
+<header>
+  <div class="top">
+    <div class="brand">EAG C1 – Tipps & Tricks <small>für Katja · Deutsch</small></div>
+    <nav>
+      <a href="#abstrakt">Abstrakt</a>
+      <a href="#verbal">Verbal</a>
+      <a href="#numerisch">Numerisch</a>
+      <a href="#planung">Planung</a>
+      <a href="#kontrolle">Kontrolle</a>
+      <a href="#kunde">Bürger/Kunde</a>
+      <a href="#team">Zusammenarbeit</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <span class="badge">C1 · Lernstrategie</span>
+  <h1>So gehst du in der EAG klüger vor</h1>
+  <p class="muted">Diese Seite ist kein Test, sondern ein persönlicher Lerncoach: pro Testbereich die wichtigsten Strategien, häufigsten Fallen und ein klares Vorgehen.</p>
+  <div class="notice"><strong>Wichtig:</strong> Die Tipps orientieren sich an den offiziell beschriebenen EAG-Testbereichen. Es sind keine echten oder geleakten Prüfungsfragen.</div>
+</section>
+
+<section class="card" style="margin-top:18px">
+  <h2>Die 5 Regeln für die ganze Prüfung</h2>
+  <div class="checklist">
+    <div class="check"><span class="rule">1. Erst verstehen, dann antworten.</span><br>Eine falsch verstandene Regel kostet mehr Zeit als 5 Sekunden Lesen.</div>
+    <div class="check"><span class="rule">2. Nicht festbeißen.</span><br>Wenn du nach kurzer Zeit keinen Ansatz hast: weiter. Schwierige Aufgaben nicht zum Zeitfresser machen.</div>
+    <div class="check"><span class="rule">3. Nur mit dem arbeiten, was da steht.</span><br>Besonders wichtig bei verbalem Denken und situativen Fragen.</div>
+    <div class="check"><span class="rule">4. Genauigkeit schlägt Hektik.</span><br>Bei Kontrollaufgaben bringen 10 schnelle Fehler weniger als 7 saubere Treffer.</div>
+    <div class="check"><span class="rule">5. Ruhig bleiben.</span><br>Ein schwerer Block bedeutet nicht, dass die ganze Prüfung schlecht läuft.</div>
+  </div>
+</section>
+
+<section id="abstrakt" class="card" style="margin-top:18px">
+  <span class="badge">1</span>
+  <h2>Abstraktes Denken</h2>
+  <p>Hier zählt nicht „Intelligenz aus dem Bauch“, sondern <strong>systematisches Regel-Suchen</strong>.</p>
+
+  <div class="tip good"><strong>Katjas Reihenfolge:</strong><br>
+  1. Was verändert sich?<br>
+  2. Was bleibt gleich?<br>
+  3. Gibt es eine Regel horizontal?<br>
+  4. Gibt es zusätzlich eine Regel vertikal?<br>
+  5. Erst dann Antworten vergleichen.</div>
+
+  <h3>Typische Regeln</h3>
+  <ul>
+    <li>Rotation: 90°, 180°, im Uhrzeigersinn / gegen Uhrzeigersinn</li>
+    <li>Anzahl: 1 → 2 → 3 Elemente</li>
+    <li>Position: links → Mitte → rechts</li>
+    <li>Farbe/Füllung: leer → gefüllt → leer</li>
+    <li>Überlagerung: zwei Felder ergeben ein drittes</li>
+    <li>Wechsel: A-B-A-B</li>
+    <li>Zwei Regeln gleichzeitig</li>
+  </ul>
+
+  <div class="tip warn"><strong>Häufige Falle:</strong> Eine sichtbare Änderung ist nur Ablenkung. Prüfe, ob sie wirklich in <em>allen</em> relevanten Feldern gilt.</div>
+
+  <details><summary>Schnelltechnik bei 3×3-Matrizen</summary>
+    <p>Prüfe zuerst jede Zeile wie eine kleine Gleichung: Feld 1 + Feld 2 = Feld 3. Danach jede Spalte. Oft reicht bereits eine Richtung, um 2–3 Antworten auszuschließen.</p>
+  </details>
+</section>
+
+<section id="verbal" class="card" style="margin-top:18px">
+  <span class="badge">2</span>
+  <h2>Verbales Denken</h2>
+  <div class="tip good"><strong>Goldene Regel:</strong> Nicht beantworten, was wahrscheinlich stimmt. Nur beantworten, was aus dem Text sicher folgt.</div>
+
+  <table>
+    <tr><th>Antwort</th><th>Wann?</th></tr>
+    <tr><td>Richtig</td><td>Die Aussage steht im Text oder folgt zwingend daraus.</td></tr>
+    <tr><td>Falsch</td><td>Der Text widerspricht der Aussage.</td></tr>
+    <tr><td>Nicht feststellbar</td><td>Der Text reicht nicht aus.</td></tr>
+  </table>
+
+  <div class="tip warn"><strong>Wörter, die gefährlich sind:</strong> immer, nie, alle, ausschließlich, garantiert, spätestens, frühestens.</div>
+  <div class="tip"><strong>Vorgehen:</strong> Erst Aussage lesen, dann Text gezielt nach den relevanten Informationen durchsuchen. Nicht alles mehrfach komplett lesen.</div>
+</section>
+
+<section id="numerisch" class="card" style="margin-top:18px">
+  <span class="badge">3</span>
+  <h2>Numerisches Denken</h2>
+  <p>Meist scheitert man nicht an schwerer Mathematik, sondern an falscher Interpretation.</p>
+
+  <h3>Das sollte sitzen</h3>
+  <ul>
+    <li>Prozentwert = Grundwert × Prozentsatz</li>
+    <li>Prozentuale Veränderung = Differenz ÷ Ausgangswert × 100</li>
+    <li>Durchschnitt = Summe ÷ Anzahl</li>
+    <li>Dreisatz</li>
+    <li>Verhältnis und Anteile</li>
+    <li>Zeit- und Mengenberechnung</li>
+  </ul>
+
+  <div class="tip good"><strong>Katjas Technik:</strong> Erst Einheit prüfen. Dann Rechnung. Dann kurz Plausibilität prüfen: Kann das Ergebnis überhaupt stimmen?</div>
+  <div class="tip warn"><strong>Typische Falle:</strong> Prozentpunkte und Prozent nicht verwechseln.</div>
+
+  <details><summary>Mini-Merksatz für Prozentänderung</summary>
+    <p>Immer durch den <strong>alten / ursprünglichen</strong> Wert teilen, nicht durch den neuen.</p>
+  </details>
+</section>
+
+<section id="planung" class="card" style="margin-top:18px">
+  <span class="badge">4</span>
+  <h2>Planung</h2>
+  <div class="tip good"><strong>Immer in dieser Reihenfolge planen:</strong><br>
+  1. Feste Termine<br>
+  2. Harte Deadlines<br>
+  3. Aufgaben mit eingeschränkten Zeitfenstern<br>
+  4. Abhängigkeiten („B erst nach A“)<br>
+  5. Flexible Aufgaben</div>
+
+  <h3>Worauf du achten musst</h3>
+  <ul>
+    <li>„vor 11:00“ ist nicht dasselbe wie „bis 11:00 beginnen“</li>
+    <li>Eine 45-Minuten-Aufgabe passt nicht in ein 30-Minuten-Fenster</li>
+    <li>Mittagspause / blockierte Zeiten nicht übersehen</li>
+    <li>Priorität ≠ Deadline</li>
+    <li>Abhängigkeiten zuerst identifizieren</li>
+  </ul>
+
+  <div class="tip warn"><strong>Falle:</strong> Eine Antwort kann logisch wirken, aber eine einzige kleine Bedingung verletzen. Deshalb jede Option gegen alle Regeln prüfen.</div>
+</section>
+
+<section id="kontrolle" class="card" style="margin-top:18px">
+  <span class="badge">5</span>
+  <h2>Kontrolle & Genauigkeit</h2>
+  <p>Hier gewinnt nicht der Schnellste, sondern derjenige mit dem besten Verhältnis aus <strong>Tempo + Genauigkeit</strong>.</p>
+
+  <div class="tip good"><strong>Vergleiche immer in derselben Reihenfolge:</strong><br>
+  Nachname → Vorname → ID → Aktennummer → weitere Angaben.</div>
+
+  <h3>Typische Fehler</h3>
+  <ul>
+    <li>583917 ↔ 583197</li>
+    <li>MULLER ↔ MÜLLER</li>
+    <li>SCHMIT ↔ SCHMIDT</li>
+    <li>Marie ↔ Maria</li>
+    <li>2026-0148 ↔ 2026-0184</li>
+  </ul>
+
+  <div class="tip"><strong>Augentechnik:</strong> Nicht die ganze Zeile als „Bild“ lesen. Spaltenweise vergleichen. Das reduziert Zahlendreher.</div>
+  <div class="tip warn"><strong>Wenn zwei Datensätze fast gleich aussehen:</strong> Nicht raten. Langsamer werden und Zeichen für Zeichen prüfen.</div>
+</section>
+
+<section id="kunde" class="card" style="margin-top:18px">
+  <span class="badge">6</span>
+  <h2>Situatives Urteil – Bürger / Kunde</h2>
+
+  <div class="tip good"><strong>Beste Grundhaltung:</strong> freundlich + sachlich + lösungsorientiert + regelkonform.</div>
+
+  <h3>Gute Antworten enthalten oft</h3>
+  <ul>
+    <li>zuhören</li>
+    <li>Anliegen klären</li>
+    <li>Information prüfen</li>
+    <li>verständlich erklären</li>
+    <li>nächsten realistischen Schritt nennen</li>
+    <li>keine falschen Versprechen</li>
+  </ul>
+
+  <h3>Schlechte Antworten sind oft</h3>
+  <ul>
+    <li>abweisend</li>
+    <li>konfrontativ</li>
+    <li>unrealistisch („Ich garantiere, dass…“)</li>
+    <li>regelwidrig</li>
+    <li>unnötiges Abschieben an andere</li>
+  </ul>
+
+  <div class="tip warn"><strong>Falle:</strong> „Besonders nett“ ist nicht automatisch richtig. Eine gute Antwort muss auch professionell und regelkonform sein.</div>
+</section>
+
+<section id="team" class="card" style="margin-top:18px">
+  <span class="badge">7</span>
+  <h2>Situatives Urteil – Zusammenarbeit</h2>
+  <div class="tip good"><strong>Faustregel:</strong> Erst direkt, respektvoll und lösungsorientiert mit der betroffenen Person arbeiten. Eskalation erst, wenn nötig.</div>
+
+  <h3>Gute Teamreaktionen</h3>
+  <ul>
+    <li>sachlich ansprechen</li>
+    <li>Information teilen</li>
+    <li>Unterstützung anbieten</li>
+    <li>Zuständigkeiten respektieren</li>
+    <li>gemeinsam Lösung finden</li>
+    <li>bei ernstem Risiko korrekt eskalieren</li>
+  </ul>
+
+  <div class="tip bad"><strong>Meist schlechte Wahl:</strong> öffentlich bloßstellen, ignorieren, passiv-aggressiv reagieren oder sofort nach oben eskalieren, obwohl ein direktes Gespräch möglich wäre.</div>
+</section>
+
+<section class="card" style="margin-top:18px">
+  <h2>Zeitmanagement am Prüfungstag</h2>
+  <ul>
+    <li><strong>Leichte Aufgaben zuerst sauber lösen.</strong></li>
+    <li>Bei Unsicherheit nicht zu lange grübeln.</li>
+    <li>Am Ende eines Blocks nur dann zurückgehen, wenn Zeit übrig ist.</li>
+    <li>Bei Zahlen und Kontrollaufgaben kurz vor dem Klick einen 1-Sekunden-Gegencheck machen.</li>
+    <li>Nach einer schweren Aufgabe mental „Reset“: nächste Aufgabe ist unabhängig.</li>
+  </ul>
+</section>
+
+<section class="card" style="margin-top:18px">
+  <h2>Katjas Kurz-Check vor dem Start</h2>
+  <div class="checklist">
+    <div class="check">✅ Aufgabe wirklich gelesen?</div>
+    <div class="check">✅ Zeit / Deadline beachtet?</div>
+    <div class="check">✅ Keine Annahme dazugedichtet?</div>
+    <div class="check">✅ Bei Zahlen Ausgangswert richtig?</div>
+    <div class="check">✅ Bei Tabellen Zeichen für Zeichen?</div>
+    <div class="check">✅ Bei Situationen professionell + regelkonform?</div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+EAG C1 Lernhilfe für Katja · unabhängige HTML-Seite · keine Verbindung zu offiziellen GovJobs-Prüfungsfragen.
+</footer>
+</body>
+</html>
